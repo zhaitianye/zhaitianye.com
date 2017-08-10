@@ -1,0 +1,63 @@
+/*=====入园申请页=====js*/
+  /*折叠2*/
+  jQuery.foldv2 = function(obj,obj_c,speed,Event,aboutv1,aboutv2){
+    $(obj_c).hide();
+    $(obj).find(".about").html(aboutv2);
+    $(".fold-act").find(".about").html(aboutv1);
+    $(".fold-act").next(obj_c).show();
+    $(obj).bind(Event,function(){
+       if($(this).next().is(":visible")){
+         $(this).next().slideUp(speed);
+         $(this).find(".about").html(aboutv2);
+       }
+       else{
+         $(obj_c).slideUp(speed);
+         $(obj).find(".about").html(aboutv2);
+         $(this).next().slideDown(speed);
+         $(this).find(".about").html(aboutv1);
+       }
+    });
+  }
+  /*  用法介绍：在折叠菜单里面一共传入6个值
+    obj是点击层也是主层，obj_c是响应层，也是隐藏层
+    speed是速度，event是触发事件
+    aboutv1是展开后响应层要变的值例如-
+    aboutv2是展开前响应层要变的值例如+
+    fold_act是默认激活的点击层
+    about是变化的容器
+    传入参数顺序不能改变。
+    例子：
+    $(function(){
+      $.foldv2(".obj",".obj_c","fast","click","-","+");
+    }); 
+  */
+  /*折叠2END*/
+/*流程控制折叠*/
+jQuery.foldv3 = function(step,step_c,obj,obj_c,speed,Event,aboutv1,aboutv2){
+    $(obj_c).hide();
+    $(obj).find(".about").html(aboutv2);
+    $(step).bind("mouseenter",function(){
+       $(step).removeClass("col-black");
+       $(step).addClass("col-white");
+       $(step).parent().find(".stepred").addClass("bg-E60000");
+    });
+    $(step).bind("mouseleave",function(){
+      $(step).removeClass("col-white");
+      $(step).addClass("col-black");
+       $(step).parent().find(".stepred").removeClass("bg-E60000");
+    });
+
+    $(step).bind(Event,function(){
+       if($(step_c).next().is(":visible")){
+         $(step_c).next().slideUp(speed);
+         $(step_c).find(".about").html(aboutv2);
+       }
+       else{
+         $(obj_c).slideUp(speed);
+         $(obj).find(".about").html(aboutv2);
+         $(step_c).next().slideDown(speed);
+         $(step_c).find(".about").html(aboutv1);
+       }
+    });
+  }
+/*流程控制折叠END*/

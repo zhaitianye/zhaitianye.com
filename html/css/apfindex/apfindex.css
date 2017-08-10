@@ -1,0 +1,180 @@
+@charset"utf-8";
+body{background: #f2f5e9;}
+.h1{
+	text-indent:-9999px;margin-top: -30px;
+}
+.f-11{font-size:11px;-webkit-transform:scale(0.8);}
+#header{
+	background: #f8f3f3 url(../../img/apfindex/header-bg.svg);
+}
+/*绿色背景*/
+/*.bg-pri{
+	background: #578300;
+}
+.col-pri{
+	color: #578300;
+}
+.hov-pri:hover ,.hov-pri a:hover{color: #97d222 !important;}
+.gra-pri{
+	background:  -webkit-linear-gradient(top, #5e8510 0%,#5D8211 60%,#49660E 100%);
+	background:  -o-linear-gradient(bottom, #5e8510 0%,#5D8211 60%,#49660E 100%);
+	background:  -moz-linear-gradient(bottom, #5e8510 0%,#5D8211 60%,#49660E 100%);
+	background:  linear-gradient(to bottom, #5e8510 0%,#5D8211 60%,#49660E 100%)
+}
+.gra-pri2{
+	background: -webkit-linear-gradient(top, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%);
+	background: -o-linear-gradient(bottom, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%);
+	background: -moz-linear-gradient(bottom, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%);
+	background: linear-gradient(to bottom, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%)
+}*/
+
+/*三角形*/
+.triangle{height:0px;width:0px;border-top:solid 20px rgba(0,0,0,0);}
+.triangle2{height:0px;width:0px;
+border-right:solid 208px #5e8510;border-top:solid 20px rgba(0,0,0,0);}
+.triangle-tran{height:0px;width:0px;
+border-left:solid 208px #fff;border-top:solid 20px rgba(0,0,0,0);}
+.triangle-tran2{height:0px;width:0px;
+border-right:solid 208px #fff;border-top:solid 20px rgba(0,0,0,0);}
+@media (max-width: 768px){
+	.triangle,.triangle2,.triangle-tran,.triangle-tran2{border-top:solid 17px rgba(0,0,0,0);}
+}
+/*logo*/
+.logo{width: 80px;height: 80px}
+@media (max-width: 768px){
+	.logo{width: 60px;height: 50px;margin:20px 0 0 20px;}
+	.f-16{font-size: 14px;}
+}
+.nav{box-shadow: 0 6px 8px 8px #999;-webkit-box-shadow:0 6px 8px #999;}
+.nav-list{padding-left: 1px;margin-left: 1px;-webkit-box-shadow: -1px 18px 0 #bbb;box-shadow: -1px 18px 0 #bbb; }
+.nav-list2{padding-left: 1px;margin-left: 1px;-webkit-box-shadow: -1px 14px 0 #bbb;box-shadow: -1px 1px 0 #bbb; }
+/*背景边框图片*/
+.list1{
+	background: url(../../img/apfindex/border/4.png) 0px 0px repeat-x;
+}
+.list2{
+	background: url(../../img/apfindex/border/10-1.png) 1px -46px repeat-x;
+}
+.list3{
+	background: url(../../img/apfindex/border/11.png) 1px 0px repeat-x;
+}
+.list4{
+	background: url(../../img/apfindex/border/9-1.png) 1px -46px repeat-x;
+}
+.list5{
+	background: url(../../img/apfindex/border/12.png) 1px 0px repeat-x;
+}
+.list6{
+	background: url(../../img/apfindex/border/10-1.png) 1px -46px repeat-x;
+}
+@media (max-width: 768px){
+	.list2,.list4,.list6{background-position: 2px -52px;}
+}
+.border{
+	height:8px;
+}
+.swiper1{max-width:1280px;max-height: 455px;margin: 0 auto;overflow:hidden;}
+/*轮播banner底部蒙层*/
+.masking{position: absolute;bottom: -1px;left:0;height: 132px;background: url(../../img/apfindex/swiper-bg-2.png)bottom repeat-x ;z-index: 99;
+}
+/*banner*/
+.content{position: absolute;left:0;top:0;z-index: 99;}
+/*二级菜单*/
+	/*小三角*/
+.triangle3{height:0px;width:0px;
+border-left:solid 208px #EDF6DB;border-top:solid 17px rgba(0,0,0,0);}
+.subnav{position:relative;z-index: 9999;}
+
+/*banner信息切换*/
+.swiper-info{margin-top: 30%;}
+/*@media (max-width: 768px){
+	.swiper-info{margin-top: 40%;}
+}*/
+.swiper-info .text{background: rgba(0,0,0,.7);border-top: 2px solid #578300;position: relative;}
+.btn-next1{top:22px;right: 0px;width: 30px;height: 35px;line-height: 33px; background-image: none;}
+.btn-prev1{top:22px;right: 50px;left: auto;width: 30px;height: 35px;line-height: 33px;background-image: none;}
+
+/*宣传视频*/
+.video{position: absolute;top:0;left:50%;z-index:999;display: none;transform: translateX(-50%);-ms-transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);
+	-webkit-box-shadow: 0px 0px 10px 2px #578300;box-shadow: 0px 0px 10px 2px #578300;
+}
+.closevd{position: absolute;top:0;left:0;background: rgba(0,0,0,.6)}
+
+.theme{
+	background: #f8f3f3 url(../../img/apfindex/biaoti-bg.svg);
+}
+.product{
+	position: relative;z-index: 999;
+}
+@media (max-width: 768px){
+	.intro-text{margin-top:0; padding-top:15px;}
+	.product{margin-top:0px;}
+	.video{width: 82%}
+}
+@media (min-width:992px) and (max-width:1199px){
+    .product{margin-top:-60px;}
+}
+/*动画时间种类*/
+.transition1{
+	-webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+     transition: all 0.8s ease-in-out; 
+}
+.transition2{
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out; 
+}
+.img-out{max-height: 120px;}
+.img-out img{max-height: 100%;}
+.img-out img:hover{	
+	-moz-transform:scale(1.3,1.3) rotate(5deg);  
+	-webkit-transform:scale(1.3,1.3) rotate(5deg);  
+	-o-transform:scale(1.3,1.3) rotate(5deg);
+	transform:scale(1.3,1.3) rotate(5deg);
+}
+/*swiper 图片播放*/
+.swiper2{
+	background: -webkit-linear-gradient(left,#000 0%,#666B72 50%, #000 100%);
+	background: -o-linear-gradient(right,#000 0%,#666B72 50%, #000 100%);
+	background: -moz-linear-gradient(right,#000 0%,#666B72 50%, #000 100%);
+	background: linear-gradient(to right, #000 0%, #666B72 50%, #000 100%)
+}
+.swiper2,.swiper3{height:135px;}
+@media (max-width: 768px){
+	.swiper2,.swiper3{height:90px;}
+}
+.swiper-pagination-progress .swiper-pagination-progressbar{background: #578300}
+.swiper2 img:hover{
+	-moz-transform:scale(1.3,1.3);  
+	-webkit-transform:scale(1.3,1.3);  
+	-o-transform:scale(1.3,1.3);
+	transform:scale(1.3,1.3);
+}
+.gra-pri{
+  background:  -webkit-linear-gradient(top, #5e8510 0%,#5D8211 60%,#49660E 100%);
+  background:  -o-linear-gradient(bottom, #5e8510 0%,#5D8211 60%,#49660E 100%);
+  background:  -moz-linear-gradient(bottom, #5e8510 0%,#5D8211 60%,#49660E 100%);
+  background:  linear-gradient(to bottom, #5e8510 0%,#5D8211 60%,#49660E 100%)
+}
+.gra-pri2{
+  background: -webkit-linear-gradient(top, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%);
+  background: -o-linear-gradient(bottom, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%);
+  background: -moz-linear-gradient(bottom, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%);
+  background: linear-gradient(to bottom, #EDF6DB 0%, #D7E7B4 93% , #9DB866 96%, #6E9229 100%)
+}
+/* ==============亚太金融小镇默认主题颜色============= */
+/*绿色背景*/
+.bg-pri{
+  background: #578300;
+}
+.bor-pri{
+  border-color: #578300;
+}
+.col-pri,.col-pri a{
+  color: #578300;
+}

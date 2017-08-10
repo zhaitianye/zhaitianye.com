@@ -1,0 +1,94 @@
+﻿ @charset"utf-8";
+ /* EMBA主页css */
+ 	/* 导航 */
+ .bg-embav1{background: #185293}
+ .emba-nav1{font-size: 30px}
+ .emba-nav2{font-size: 16px}
+ .emba-nav3{padding-top: 17px; padding-bottom: 17px}
+ .emba-nav3:hover{background: #0D3D70}
+ .emba-nav4{color: #185293;padding: 5px 0; margin-top: 14px}
+ .emba-nav4:hover{color: white; background:#185293}
+ .emba-nav5h{top: 51px; left: -30px; width: 190px;z-index:99}
+ .emba-nav5h:hover{font-weight: bold;background: #0D3D70}
+@media (min-width:768px) and (max-width:1199px){
+	.emba-nav1{font-size: 28px}
+	.emba-nav2{font-size: 14px}
+	.emba-nav3{padding: 17px 0}
+	.emba-nav5h{top: 48px; left: -20px; width: 110px}
+}
+	/* 导航结束 */
+	/* 悬浮菜单开始 */
+	.nav-affix{position: fixed;top: 0px;left: 0px;z-index: 999;width: 100%;}
+	.afx-menu{position: fixed;width: 45px;top: 22%; right: 0px; z-index: 999;}
+	.afx-p:hover{color:white ;background-color:#003368;}
+	/* 悬浮菜单结束 */
+	/* banner */
+.swiper-containerv1 {width: 100%;height:100%;}
+.swiper-containerv1 > .swiper-wrapper > .swiper-slide img{width: 100%;max-height: 100%;}
+.swiper-paginationv1{z-index: 99;bottom: 47% !important;}
+.swiper-paginationv1 span{width: 15px;height: 15px;}
+.mba-ban-tit{height: 45%;bottom: 0px;z-index: 98;background-color: rgba(255,255,255,0.9);}
+.bor-emba{border:1px solid #185293;}
+.btn-ban-tit{ padding: 5px 100px; }
+.btn-ban-tit:hover{background: #003368;}
+.ban-tit-iv1{z-index: 99; right: 0px;}
+.ban-tit-iv2{z-index: 100; left: 100px;}
+.ban-tit-pv2{font-size:85px;}
+.ban-tit-pv3{font-size:22px;}
+@media (min-width:768px) and (max-width:991px){
+	.swiper-containerv1 {height: 50%;}
+	.ban-tit-pv1{font-size: 14px;font-weight:normal;}
+	.ban-tit-spv1{font-size:14px;}
+	.ban-tit-spv2{font-size:20px;}
+	.swiper-paginationv1{bottom: 52% !important;}
+	.mba-ban-tit{height: 50%;}
+	.pro-img-2{height: 70px;}
+	.btn-ban-tit{ padding: 5px 90px; }
+	.ban-tit-pv2{font-size:30px;}
+	.ban-tit-pv3{font-size:12px;}
+	.ban-tit-pv4{font-size:14px;line-height: 18px;}
+	.ban-tit-pv5{font-size:12px;-webkit-line-clamp:2;padding-top: 0px;}
+	.ban-tit-div1{padding: 0;}
+	.ban-tit-div2{padding: 0;}
+}
+@media (min-width:991px) and (max-width:1199px){
+	.swiper-containerv1 {height: 45%;}
+	.ban-tit-p{font-size: 16px;font-weight:normal;}
+	.ban-tit-spv1{font-size:16px;}
+	.ban-tit-spv2{font-size:24px;}
+	.swiper-paginationv1{bottom: 52% !important;}
+	.mba-ban-tit{height: 50%;}
+	.pro-img-2{height: 100px;}
+	.btn-ban-tit{ padding: 5px 100px; }
+	.ban-tit-pv2{font-size:50px;}
+	.ban-tit-pv3{font-size:20px;}
+	.ban-tit-pv4{font-size:18px;line-height: 22px;}
+	.ban-tit-pv5{font-size:13px;-webkit-line-clamp:2;padding-top: 5px;}
+	.ban-tit-div1{padding: 0;}
+	.ban-tit-div2{padding: 0;}
+}
+	/* banner结束 */
+	/* EMBA学员开始 */
+.stu-titv1{padding: 0 0 60px;}
+.bor-stuv1{border-top: 1px solid #003368; border-bottom:1px solid #003368;border-left: 5px solid #003368; border-right:1px solid #003368;}
+.edu-bgbv1{background-image: url(../../img/edu-emba/stu_bg.jpg);}
+.stu-pv1{font-size: 52px;}
+.stu-pv2{font-size: 32px;}
+.stu-pv3{font-size: 18px; line-height: 25px;}
+.stu-periods{top: 20px; right: 0px;}
+.swiper-containerv2 {width: 100%;}
+.swiper-paginationv2{z-index: 99;}
+.swiper-paginationv2 span{width: 15px;height: 15px; margin: 5px 10px;}
+	/* EMBA学员结束 */
+	/* EMBA视频开始 */
+.emba-vid{height: 800px;}
+.z-99{z-index: 99;}
+.vid-close{z-index: 100;top:20px;left:0;background: rgba(0,0,0,.7)}
+.vid-img{border: 3px solid #616161;}
+.vid-bgv1{background-color: rgba(0,0,0,0.6); z-index: 1;}
+.vid-bgv2{background:url(../../img/edu-emba/vid_tit1.jpg) no-repeat; -moz-background-size:40% 100%; background-size:100% 100%;}
+.vid-bgv3{background:url(../../img/edu-emba/vid_tit2.jpg) no-repeat; -moz-background-size:40% 100%; background-size:100% 100%;}
+.vid-bgv4{background:url(../../img/edu-emba/vid_tit3.png) no-repeat; -moz-background-size:40% 100%; background-size:100% 100%;}
+	/* EMBA视频结束 */
+
+/* EMBA主页cssEND */
