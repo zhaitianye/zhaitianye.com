@@ -89,8 +89,11 @@ a:hover{text-decoration: none};
 .w-50{width: 50px;}
 .w-66{width: 66px;}
 .w-70{width: 70px;}
+.w-83{width: 83px;}
+.w-168{width: 168px;}
 .w-172{width: 172px;}
 .w-190{width: 190px;}
+.w-198{width: 198px;}
 .w-280{width: 280px;}
 .w-310{width: 310px;}
 .w-322{width: 322px;}
@@ -103,6 +106,7 @@ a:hover{text-decoration: none};
 .h-24{height: 24px;}
 .h-28{height: 28px;}
 .h-70{height: 70px;}
+.h-134{height: 134px;}
 .h-480{height: 480px;}
 .min-h-480{min-height: 480px;}
 .pl-12{padding-left: 12px;}
