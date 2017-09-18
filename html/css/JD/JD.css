@@ -34,7 +34,7 @@
 }
 a:hover{text-decoration: none};
 .col-E3E4E5{color:#E3E4E5;}
-.col-c81623{color: #c81623;}
+.col-c81623{color: #c81623 !important;}
 .col-f10214{color: #f10214 !important;}
 .col-f10215{color: #f10215 !important;}
 .col-555{color: #555 !important; }
@@ -46,6 +46,7 @@ a:hover{text-decoration: none};
 .bg-f10215{background-color: #f10215;}
 .bg-6E6568{background-color: #6E6568;}
 .bg-5c5251{background-color: #5c5251;}
+.bg-999395{background-color: #999395}
 .bor-none{border: none;}
 .bor-col-ddd{border-color: #ddd !important}
 .bor-col-eee{border-color: #eee !important}
@@ -107,6 +108,7 @@ a:hover{text-decoration: none};
 .h-28{height: 28px;}
 .h-70{height: 70px;}
 .h-134{height: 134px;}
+.h-340{height: 340px;}
 .h-480{height: 480px;}
 .min-h-480{min-height: 480px;}
 .pl-12{padding-left: 12px;}
