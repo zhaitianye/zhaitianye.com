@@ -85,3 +85,16 @@ $("#main-banner-swiper-button-next").mouseleave(function() {
     $(this).css("background-color","rgba(0,0,0,0.1)");
 });
 /*主要介绍右侧部分js*/
+$(".mian-notice-controlv1").mouseenter(function() {
+    $(".mian-notice-side").stop(true);
+    $(".mian-notice-side").animate({left:'0px'},300);
+    $(".mian-notice-tipsv2").hide();
+    $(".mian-notice-tipsv1").show();
+
+});
+$(".mian-notice-controlv2").mouseenter(function() {
+    $(".mian-notice-side").stop(true);
+    $(".mian-notice-side").animate({left:'50px'},300);
+    $(".mian-notice-tipsv1").hide();
+    $(".mian-notice-tipsv2").show();
+});
