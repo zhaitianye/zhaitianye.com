@@ -69,6 +69,7 @@ a:hover{text-decoration: none};
 .img-12{width: 12px;height: 12px;}
 .img-15{width: 15px;height: 15px;}
 .img-16{width: 16px;height: 16px;}
+.img-24{width: 24px;height: 24px;}
 .img-40{width: 40;height: 40px;}
 .img-50{width: 50px;height: 50px;}
 .img-70{width: 70px;height: 70px;}
@@ -115,6 +116,7 @@ a:hover{text-decoration: none};
 .h-14{height: 14px;}
 .h-16{height: 16px;}
 .h-17{height: 17px;}
+.h-22{height: 22px;}
 .h-24{height: 24px;}
 .h-27{height: 27px;}
 .h-28{height: 28px;}
@@ -144,6 +146,7 @@ a:hover{text-decoration: none};
 .line-h-14{line-height: 14px;}
 .line-h-16{line-height: 16px;}
 .line-h-17{line-height: 17px;}
+.line-h-22{line-height: 22px;}
 .line-h-24{line-height: 24px;}
 .line-h-28{line-height: 28px;}
 .line-h-33{line-height: 33px;}
@@ -212,3 +215,24 @@ a:hover{text-decoration: none};
 .bg-img-nouser{background: url(../../img/JD/main-banner/main-banner-right-bgv1.png) -70px 0px no-repeat;}
 .main-major-right-buttonv1:hover{background-color: #e01222;color: white;}
 .main-major-right-buttonv2:hover{background-color: #e01222;color: white;}
+.w-48{width: 48px;}
+.w-192{width: 192px;}
+.ml--1{margin-left: -1px;}
+.w-47{width: 47px;}
+.pt-14{padding-top: 14px;}
+.w-13{width: 13px;}
+.bg-text-small-scale{background: url(../../img/JD/main-banner/main-text-small-scalev2.png) no-repeat;}
+.bg-main-banner-right-bgv2-tipsv1{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) 0px -88px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv2{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) 0px -44px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv3{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -44px -88px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv4{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -88px 0px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv5{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -88px -44px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv6{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) 0px 0px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv7{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -44px -44px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv8{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -88px -88px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv9{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -132px 0px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv10{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -132px -44px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv11{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -132px -88px no-repeat;}
+.bg-main-banner-right-bgv2-tipsv12{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -44px 0px no-repeat;}
+
+
