@@ -38,7 +38,9 @@ a:hover{text-decoration: none};
 .col-f10214{color: #f10214 !important;}
 .col-f10215{color: #f10215 !important;}
 .col-555{color: #555 !important; }
-.col-666{color: #666 !important; }
+.col-666i{color: #666 !important; }
+.col-666{color: #666; }
+.col-e01121{color: #e01121;}
 .col-e01222{color: #e01222;}
 .bg-E3E4E5{background: #E3E4E5;}
 .bg-f6f0f0{background-color: #f6f0f0;}
@@ -52,12 +54,14 @@ a:hover{text-decoration: none};
 .bor-none{border: none;}
 .bor-col-ddd{border-color: #ddd !important}
 .bor-col-eee{border-color: #eee !important}
-.bor-col-fff{border-color: #fff !important}
+.bor-col-fff{border-color: #fff}
+.bor-col-fffi{border-color: #fff !important}
 .bor-col-e0e0e0{border-color: #e0e0e0 !important}
 .bor-col-e3e4e5{border-color: #e3e4e5 !important}
 .bor-col-cfcfcf{border-color: #cfcfcf !important}
 .bor-col-e7e7e7{border-color: #e7e7e7 !important}
 .bor-col-f7f7f7{border-color: #f7f7f7 !important}
+.bor-col-e01121{border-color: #e01121 !important}
 .bor-col-f10215{border-color: #f10215 !important}
 .bor-col-db7078{border-color: #db7078 !important}
 .bor-col-e6e6e6{border-color: #e6e6e6 !important}
@@ -65,8 +69,11 @@ a:hover{text-decoration: none};
 .bor-col-db192b{border-color: #db192b !important}
 .hov-c81623:hover{color:#c81623 !important; cursor: pointer;}
 .hov-c81623:hover i{color:#c81623 !important;}
+.hov-bg-ddd:hover{background-color: #ddd !important;}
 .hov-bg-5c5251:hover{background-color: #5c5251 !important;}
+.img-4{width: 4px;height: 4px;}
 .img-12{width: 12px;height: 12px;}
+.img-14{width: 14px;height: 14px;}
 .img-15{width: 15px;height: 15px;}
 .img-16{width: 16px;height: 16px;}
 .img-24{width: 24px;height: 24px;}
@@ -81,6 +88,7 @@ a:hover{text-decoration: none};
 .t--30{top: -30px;}
 .t-34{top: 34px;}
 .t-35{top: 35px;}
+.t-210{top: 210px;}
 .t-212{top: 212px;}
 .r-15{right: 15px;}
 .r--65{right:-65px;}
@@ -88,6 +96,7 @@ a:hover{text-decoration: none};
 .r-100{right:100px;}
 .l-27{left: 27px;}
 .l-31{left: 31px;}
+.l-34{left: 34px;}
 .l--95{left: -95px;}
 .l-154{left: 154px;}
 .l-190{left: 190px;}
