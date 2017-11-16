@@ -32,7 +32,8 @@
 @media print {
   .container {width: auto}
 }
-a:hover{text-decoration: none};
+a:hover{text-decoration: none}
+.col-fffi{color: #fff !important;}
 .col-E3E4E5{color:#E3E4E5;}
 .col-c81623{color: #c81623 !important;}
 .col-f10214{color: #f10214 !important;}
@@ -125,10 +126,12 @@ a:hover{text-decoration: none};
 .h-14{height: 14px;}
 .h-16{height: 16px;}
 .h-17{height: 17px;}
+.h-21{height: 21px;}
 .h-22{height: 22px;}
 .h-24{height: 24px;}
 .h-27{height: 27px;}
 .h-28{height: 28px;}
+.h-36{height: 36px;}
 .h-50{height: 50px;}
 .h-70{height: 70px;}
 .h-96{height: 96px}
@@ -136,6 +139,7 @@ a:hover{text-decoration: none};
 .h-120{height: 120px;}
 .h-134{height: 134px;}
 .h-130{height: 130px;}
+.h-149{height: 149px;}
 .h-156{height: 156px;}
 .h-185{height: 185px;}
 .h-210{height: 210px;}
@@ -243,5 +247,7 @@ a:hover{text-decoration: none};
 .bg-main-banner-right-bgv2-tipsv10{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -132px -44px no-repeat;}
 .bg-main-banner-right-bgv2-tipsv11{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -132px -88px no-repeat;}
 .bg-main-banner-right-bgv2-tipsv12{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -44px 0px no-repeat;}
+.bg-main-banner-right-bgv3{background: url(../../img/JD/main-banner/main-banner-right-bgv3.png) no-repeat;}
+
 
 
