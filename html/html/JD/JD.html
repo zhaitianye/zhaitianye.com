@@ -3865,6 +3865,7 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- 右侧部分三层弹出 -->
                     <div class="clear pos-a z-99 h-185 full-w t-210 majorJD-code3-float3-sidev2">
                         <div class="clear pos-r full-wh bg-white">
                             <div class="clear pos-a t-0 r-0 img-14 cur-p z-99 mJ-c3-f3-close-sidev2 hov-bg-ddd">
@@ -3873,17 +3874,63 @@
                             <div class="clear maj-co3-fl3-si2-tips maj-co3-fl3-si2-tipsv1 full-wh">
                                 <ul class="clear pt-15 pl-8 h-36 overflow-h">
                                     <li class="clear line-h-16 pull-left mr-6 h-21 bg-main-banner-right-bgv3">
-                                        <a class="h-21 pl-2 pr-2 dis-ib col-666 col-fffi" href="">话费充值</a>
+                                        <a class="h-21 pl-2 pr-2 dis-ib col-666 col-fffi majorJD-c3-f3-s2-t1-control1" href="">话费充值</a>
                                     </li>
                                     <li class="clear line-h-16 pull-left mr-6 h-21">
-                                        <a class="h-21 pl-2 pr-2 dis-ib col-666" href="">流量充值</a>
+                                        <a class="h-21 pl-2 pr-2 dis-ib col-666 majorJD-c3-f3-s2-t1-control2" href="">流量充值</a>
                                     </li>
                                     <li class="clear line-h-16 pull-left mr-6 h-21">
-                                        <a class="h-21 pl-2 pr-2 dis-ib col-666" href="">套餐变更</a>
+                                        <a class="h-21 pl-2 pr-2 dis-ib col-666 majorJD-c3-f3-s2-t1-control3" href="">套餐变更</a>
                                     </li>
                                 </ul>
-                                <div class="clear full-w pt-10 h-149 overflow-h">
-                                    324
+                                <div class="clear full-w h-149 overflow-h">
+                                    <div class="clear pl-16 pos-r majorJD-c3-f3-s2-t1-show1">
+                                        <form action="" class="maj-co3-fl3-show1-side1-form pos-r clear">
+                                            <dl class="family-s h-23 mt-10">
+                                                <dt class="h-23 line-h-22 pull-left mr-5"><label for="">号码</label></dt>
+                                                <dd class="h-23 pull-left mr-5 w-93 clear">
+                                                    <input class="bor bor-col-e7e7e7 focus-bor-col-74a7f9 h-20 pl-4 pr-4 full-w" type="text" placeholder="请输入手机号" name="phonenum" autocomplete="off" maxlength="11">
+                                                </dd>
+                                            </dl>
+                                            <dl class="family-s h-23 mt-10">
+                                                <dt class="h-23 line-h-22 pull-left mr-5"><label for="">面值</label></dt>
+                                                <dd class="h-23 pull-left mr-5 w-53 clear">
+                                                    <select name="selmoney" class="bor bor-col-e7e7e7 focus-bor-col-74a7f9 h-22 full-w f-12 family-s col-666 main-banner-right-form1-sel">
+                                                        <option value="10">10元</option>
+                                                        <option value="20">20元</option>
+                                                        <option value="30">30元</option>
+                                                        <option value="50">50元</option>
+                                                        <option value="100" selected="selected">100元</option>
+                                                        <option value="200">200元</option>
+                                                        <option value="300">300元</option>
+                                                        <option value="500">500元</option>
+                                                    </select>
+                                                </dd>
+                                                <dd class="h-23 pull-left mr-5 clear line-h-22">
+                                                    <span class="f-12 col-e01222 family-avs col-666 main-banner-right-form1-seldetail">
+                                                        ￥98.0-￥100.0
+                                                    </span>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear pos-a t-26 l-29 h-24 line-h-24 bg-white pl-5 pr-5 bor bor-col-ccc sha-main-banner-right-errorsha text-center radius-4 col-da1616 family-avs dis-n main-banner-right-form1-error-mag">
+                                                <i class="w-8 h-5 pos-a t--5 l-30 bg-main-banner-right-bgv4"></i>
+                                            </div>
+                                            <div class="clear mt-10 h-26">
+                                                <button class="h-25 w-85 text-center bor-none col-fffi bg-e01222 line-h-25 cur-p" type="submit">
+                                                    快速充值
+                                                </button>
+                                            </div>
+                                        </form>
+                                        <p class="h-18 line-h-18 mt-10">
+                                            <a href="">抢190减100元话费券</a>
+                                        </p>
+                                    </div>
+                                    <div class="clear pl-16 pos-r majorJD-c3-f3-s2-t1-show2 dis-n">
+                                        2
+                                    </div>
+                                    <div class="clear pl-16 pos-r majorJD-c3-f3-s2-t1-show3 dis-n">
+                                        3
+                                    </div>
                                 </div>
                             </div>
                             <div class="clear maj-co3-fl3-si2-tips maj-co3-fl3-si2-tipsv2 full-wh dis-n">
@@ -3906,6 +3953,8 @@
     <footer class="footer">
     </footer>
     <script src="../../js/comm/jquery.min.js"></script>
+    <script src="../../js/comm/jquery.validate.min.js"></script>
+    <script src="../../js/comm/jquery.validate.messages_zh.js"></script>
     <script src="../../js/comm/swiper.jquery.min.js"></script>
     <script src="../../js/comm/base.js"></script>
     <script src="../../js/JD/JD.js"></script>
