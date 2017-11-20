@@ -162,67 +162,224 @@ $(document).ready(function() {
             });
         /*右侧第三层控制相关弹层END*/
         /*右侧第三层相关表单验证以及相关*/
-            /*右一一验证*/
-            $(".maj-co3-fl3-show1-side1-form").validate({
-                rules: {
-                    phonenum: {
-                        required: true,
-                        minlength: 11,
-                        number: true,
-                    },
-                    selmoney: {
-                        required: true
-                    },
-                },
-                messages: {
-                    phonenum: {
-                        required: "请输入手机号",
-                        minlength: "手机号由11位组成",
-                        number: "只能输入数字",
-                    },
-                    selmoney: {
-                        required: "请选择充值金额",
-                    },
-                },
-                errorLabelContainer:".main-banner-right-form1-error-mag",
-                submitHandler: function(form) {
-                    alert("调试模式：提交事件!");
-                },
-            });
-            /*右一一下拉选择*/
-            $(".main-banner-right-form1-sel").change(function(){
-                var selval = parseInt($(".main-banner-right-form1-sel").val());
-                switch (selval) {
-                    case 10:
-                        $(".main-banner-right-form1-seldetail").html("￥9.8-￥11.0");
-                        break;
-                    case 20:
-                        $(".main-banner-right-form1-seldetail").html("￥19.6-￥21.0");
-                        break;
-                    case 30:
-                        $(".main-banner-right-form1-seldetail").html("￥29.4-￥31.0");
-                        break;
-                    case 50:
-                        $(".main-banner-right-form1-seldetail").html("￥49.0-￥50.0");
-                        break;
-                    case 100:
-                        $(".main-banner-right-form1-seldetail").html("￥98.0-￥100.0");
-                        break;
-                    case 200:
-                        $(".main-banner-right-form1-seldetail").html("￥196.0-￥200.0");
-                        break;
-                    case 300:
-                        $(".main-banner-right-form1-seldetail").html("￥294.0-￥300.0");
-                        break;
-                    case 500:
-                        $(".main-banner-right-form1-seldetail").html("￥490.0-￥500.0");
-                        break;
-                    default:
-                        $(".main-banner-right-form1-seldetail").html("￥98.0-￥100.0");
-                        break;
-                }
-            });
             /*右一相关弹层*/
+                $(".majorJD-c3-f3-s2-t1-control1").mouseenter(function() {
+                    $(".majorJD-c3-f3-s2-t1-control1").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control2").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control3").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control1").addClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control1").parent("li").addClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-show1").show();
+                    $(".majorJD-c3-f3-s2-t1-show2").hide();
+                    $(".majorJD-c3-f3-s2-t1-show3").hide();
+                });
+                $(".majorJD-c3-f3-s2-t1-control2").mouseenter(function() {
+                    $(".majorJD-c3-f3-s2-t1-control1").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control2").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control3").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control2").addClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control2").parent("li").addClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-show2").show();
+                    $(".majorJD-c3-f3-s2-t1-show1").hide();
+                    $(".majorJD-c3-f3-s2-t1-show3").hide();
+                });
+                $(".majorJD-c3-f3-s2-t1-control3").mouseenter(function() {
+                    $(".majorJD-c3-f3-s2-t1-control1").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control2").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control3").removeClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-control3").addClass("col-fffi");
+                    $(".majorJD-c3-f3-s2-t1-control3").parent("li").addClass("bg-main-banner-right-bgv3");
+                    $(".majorJD-c3-f3-s2-t1-show3").show();
+                    $(".majorJD-c3-f3-s2-t1-show1").hide();
+                    $(".majorJD-c3-f3-s2-t1-show2").hide();
+                });
+            /*右一一验证*/
+                $(".maj-co3-fl3-show1-side1-form").validate({
+                    rules: {
+                        phonenum: {
+                            required: true,
+                            minlength: 11,
+                            number: true,
+                        },
+                        selmoney: {
+                            required: true
+                        },
+                    },
+                    messages: {
+                        phonenum: {
+                            required: "请输入手机号",
+                            minlength: "手机号由11位组成",
+                            number: "只能输入数字",
+                        },
+                        selmoney: {
+                            required: "请选择充值金额",
+                        },
+                    },
+                    errorLabelContainer:".main-banner-right-form1-error-mag",
+                    submitHandler: function(form) {
+                        layer.msg("<font style="+"color:#fff;"+">表单提交事件！</font>");
+                    },
+                });
+            /*右一一下拉选择*/
+                $(".main-banner-right-form1-sel").change(function(){
+                    var selval = parseInt($(".main-banner-right-form1-sel").val());
+                    switch (selval) {
+                        case 10:
+                            $(".main-banner-right-form1-seldetail").html("￥9.8-￥11.0");
+                            break;
+                        case 20:
+                            $(".main-banner-right-form1-seldetail").html("￥19.6-￥21.0");
+                            break;
+                        case 30:
+                            $(".main-banner-right-form1-seldetail").html("￥29.4-￥31.0");
+                            break;
+                        case 50:
+                            $(".main-banner-right-form1-seldetail").html("￥49.0-￥50.0");
+                            break;
+                        case 100:
+                            $(".main-banner-right-form1-seldetail").html("￥98.0-￥100.0");
+                            break;
+                        case 200:
+                            $(".main-banner-right-form1-seldetail").html("￥196.0-￥200.0");
+                            break;
+                        case 300:
+                            $(".main-banner-right-form1-seldetail").html("￥294.0-￥300.0");
+                            break;
+                        case 500:
+                            $(".main-banner-right-form1-seldetail").html("￥490.0-￥500.0");
+                            break;
+                        default:
+                            $(".main-banner-right-form1-seldetail").html("￥98.0-￥100.0");
+                            break;
+                    }
+                });
+            /*右一二验证*/
+                $(".maj-co3-fl3-show1-side2-form").validate({
+                    rules: {
+                        phonenum: {
+                            required: true,
+                            minlength: 11,
+                            number: true,
+                        },
+                        selmoney: {
+                            required: true
+                        },
+                    },
+                    messages: {
+                        phonenum: {
+                            required: "请输入手机号",
+                            minlength: "手机号由11位组成",
+                            number: "只能输入数字",
+                        },
+                        selmoney: {
+                            required: "请选择充值流量",
+                        },
+                    },
+                    errorLabelContainer: ".main-banner-right-form2-error-mag",
+                    submitHandler: function(form) {
+                        layer.msg("<font style=" + "color:#fff;" + ">表单提交事件！</font>");
+                    },
+                });
+            /*右一二下拉选择*/
+                $(".main-banner-right-form2-sel2").change(function(){
+                    var selval = parseInt($(".main-banner-right-form2-sel2").val());
+                    switch (selval) {
+                        case 50:
+                            $(".main-banner-right-form2-seldetail").html("￥7.5-￥10.0");
+                            break;
+                        case 100:
+                            $(".main-banner-right-form2-seldetail").html("￥9.95-￥20.0");
+                            break;
+                        case 200:
+                            $(".main-banner-right-form2-seldetail").html("￥19.9-￥20.5");
+                            break;
+                        case 300:
+                            $(".main-banner-right-form2-seldetail").html("￥29.0-￥29.9");
+                            break;
+                        case 500:
+                            $(".main-banner-right-form2-seldetail").html("￥49.0-￥50.0");
+                            break;
+                        default:
+                            $(".main-banner-right-form2-seldetail").html("￥49.0-￥50.0");
+                            break;
+                    }
+                });
+            /*右一三验证*/
+                $(".maj-co3-fl3-show1-side3-form").validate({
+                    rules: {
+                        phonenum: {
+                            required: true,
+                            minlength: 11,
+                            number: true,
+                        },
+                        selmoney: {
+                            required: true
+                        },
+                    },
+                    messages: {
+                        phonenum: {
+                            required: "请输入手机号",
+                            minlength: "手机号由11位组成",
+                            number: "只能输入数字",
+                        },
+                        selmoney: {
+                            required: "请选择月费",
+                        },
+                    },
+                    errorLabelContainer:".main-banner-right-form3-error-mag",
+                    submitHandler: function(form) {
+                        layer.msg("<font style="+"color:#fff;"+">表单提交事件！</font>");
+                    },
+                });
+            /*右一三下拉选择*/
+                $(".main-banner-right-form3-sel").change(function(){
+                    var selval = parseInt($(".main-banner-right-form3-sel").val());
+                    switch (selval) {
+                        case 38:
+                            $(".main-banner-right-form3-seldetail").html("50分钟300M流量");
+                            break;
+                        case 48:
+                            $(".main-banner-right-form3-seldetail").html("50分钟500M流量");
+                            break;
+                        case 58:
+                            $(".main-banner-right-form3-seldetail").html("100分钟500M流量");
+                            break;
+                        case 88:
+                            $(".main-banner-right-form3-seldetail").html("220分钟700M流量");
+                            break;
+                        case 138:
+                            $(".main-banner-right-form3-seldetail").html("500分钟1G流量");
+                            break;
+                        case 158:
+                            $(".main-banner-right-form3-seldetail").html("500分钟2G流量");
+                            break;
+                        case 238:
+                            $(".main-banner-right-form3-seldetail").html("1000分钟2G流量");
+                            break;
+                        case 268:
+                            $(".main-banner-right-form3-seldetail").html("1000分钟3G流量");
+                            break;
+                        case 338:
+                            $(".main-banner-right-form3-seldetail").html("2000分钟3G流量");
+                            break;
+                        case 588:
+                            $(".main-banner-right-form3-seldetail").html("4000分钟6G流量");
+                            break;
+                        default:
+                            $(".main-banner-right-form3-seldetail").html("100分钟500M流量");
+                            break;
+                    }
+                });
+            /*右二相关弹层*/
             $(".majorJD-c3-f3-s2-t1-control1").mouseenter(function() {
                 $(".majorJD-c3-f3-s2-t1-control1").removeClass("col-fffi");
                 $(".majorJD-c3-f3-s2-t1-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
@@ -265,3 +422,4 @@ $(document).ready(function() {
         /*右侧第三层相关表单验证END*/
     /*主要展示END*/
 });
+
