@@ -380,45 +380,60 @@ $(document).ready(function() {
                     }
                 });
             /*右二相关弹层*/
-            $(".majorJD-c3-f3-s2-t1-control1").mouseenter(function() {
-                $(".majorJD-c3-f3-s2-t1-control1").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control2").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control3").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control1").addClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control1").parent("li").addClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-show1").show();
-                $(".majorJD-c3-f3-s2-t1-show2").hide();
-                $(".majorJD-c3-f3-s2-t1-show3").hide();
-            });
-            $(".majorJD-c3-f3-s2-t1-control2").mouseenter(function() {
-                $(".majorJD-c3-f3-s2-t1-control1").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control2").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control3").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control2").addClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control2").parent("li").addClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-show2").show();
-                $(".majorJD-c3-f3-s2-t1-show1").hide();
-                $(".majorJD-c3-f3-s2-t1-show3").hide();
-            });
-            $(".majorJD-c3-f3-s2-t1-control3").mouseenter(function() {
-                $(".majorJD-c3-f3-s2-t1-control1").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control2").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control3").removeClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-control3").addClass("col-fffi");
-                $(".majorJD-c3-f3-s2-t1-control3").parent("li").addClass("bg-main-banner-right-bgv3");
-                $(".majorJD-c3-f3-s2-t1-show3").show();
-                $(".majorJD-c3-f3-s2-t1-show1").hide();
-                $(".majorJD-c3-f3-s2-t1-show2").hide();
-            });
+                var mjc3f3s2t2ST260;
+                $(".majorJD-c3-f3-s2-t2-control1").mouseenter(function() {
+                    mjc3f3s2t2ST260 = setTimeout(function(){st()},260);
+                    function st(){
+                        $(".majorJD-c3-f3-s2-t2-control1").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control2").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control3").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control1").addClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control1").parent("li").addClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-show").animate({"margin-left":'0px'},300);
+                    };
+                });
+                $(".majorJD-c3-f3-s2-t2-control1").mouseleave(function() {
+                    clearTimeout(mjc3f3s2t2ST260);
+                });
+                $(".majorJD-c3-f3-s2-t2-control2").mouseenter(function() {
+                    mjc3f3s2t2ST260 = setTimeout(function(){st()},260);
+                    function st(){
+                        $(".majorJD-c3-f3-s2-t2-control1").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control2").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control3").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control2").addClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control2").parent("li").addClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-show").animate({"margin-left":'-190px'},300);
+                    };
+                });
+                $(".majorJD-c3-f3-s2-t2-control2").mouseleave(function() {
+                    clearTimeout(mjc3f3s2t2ST260);
+                });
+                $(".majorJD-c3-f3-s2-t2-control3").mouseenter(function() {
+                    mjc3f3s2t2ST260 = setTimeout(function(){st()},260);
+                    function st(){
+                        $(".majorJD-c3-f3-s2-t2-control1").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control1").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control2").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control2").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control3").removeClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control3").parent("li").removeClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-control3").addClass("col-fffi");
+                        $(".majorJD-c3-f3-s2-t2-control3").parent("li").addClass("bg-main-banner-right-bgv3");
+                        $(".majorJD-c3-f3-s2-t2-show").animate({"margin-left":'-380px'},300);
+                    };
+                });
+                $(".majorJD-c3-f3-s2-t2-control3").mouseleave(function() {
+                    clearTimeout(mjc3f3s2t2ST260);
+                });
+            /*右二一一一相关js*/
+            
         /*右侧第三层相关表单验证END*/
     /*主要展示END*/
 });
