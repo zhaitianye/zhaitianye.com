@@ -432,8 +432,56 @@ $(document).ready(function() {
                 $(".majorJD-c3-f3-s2-t2-control3").mouseleave(function() {
                     clearTimeout(mjc3f3s2t2ST260);
                 });
-            /*右二一一一相关js*/
-            
+            /*右二一一相关js*/
+            $(".c3-f3-s2-t2-s1-hotcity-c1").click(function(){
+                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                $(".c3-f3-s2-t2-s1-hotcity-s1").show();
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                $(this).addClass("bg-c81623i");
+                $(this).addClass("col-fffi");
+            });
+            $(".c3-f3-s2-t2-s1-hotcity-c2").click(function(){
+                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                $(".c3-f3-s2-t2-s1-hotcity-s2").show();
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                $(this).addClass("bg-c81623i");
+                $(this).addClass("col-fffi");
+            });
+            $(".c3-f3-s2-t2-s1-hotcity-c3").click(function(){
+                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                $(".c3-f3-s2-t2-s1-hotcity-s3").show();
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                $(this).addClass("bg-c81623i");
+                $(this).addClass("col-fffi");
+            });
+            $(".c3-f3-s2-t2-s1-hotcity-c4").click(function(){
+                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                $(".c3-f3-s2-t2-s1-hotcity-s4").show();
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                $(this).addClass("bg-c81623i");
+                $(this).addClass("col-fffi");
+            });
+            $(".c3-f3-s2-t2-s1-hotcity-c5").click(function(){
+                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                $(".c3-f3-s2-t2-s1-hotcity-s5").show();
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                $(this).addClass("bg-c81623i");
+                $(this).addClass("col-fffi");
+            });
+            $(".c3-f3-s2-t2-s1-hotcity-c6").click(function(){
+                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                $(".c3-f3-s2-t2-s1-hotcity-s6").show();
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                $(this).addClass("bg-c81623i");
+                $(this).addClass("col-fffi");
+            });
+
         /*右侧第三层相关表单验证END*/
     /*主要展示END*/
 });

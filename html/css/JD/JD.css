@@ -44,6 +44,7 @@ a:hover{text-decoration: none}
 .col-666i{color: #666 !important; }
 .col-666{color: #666; }
 .col-527cdb{color: #527cdb;}
+.col-cc0000{color: #c00000;}
 .col-e01121{color: #e01121;}
 .col-e01222{color: #e01222;}
 .hov-col-e01222:hover{color: #e01222;}
@@ -122,6 +123,7 @@ a:hover{text-decoration: none}
 .w-20s{width: 20%;}
 .w-5{width: 5px;}
 .w-8{width: 8px;}
+.w-9{width: 9px;}
 .w-14{width: 14px;}
 .w-16{width: 16px;}
 .w-19{width: 19px;}
@@ -132,6 +134,7 @@ a:hover{text-decoration: none}
 .w-53{width: 53px;}
 .w-54{width: 54px;}
 .w-55{width: 55px;}
+.w-64{width: 64px;}
 .w-66{width: 66px;}
 .w-70{width: 70px;}
 .w-71{width: 71px;}
@@ -151,6 +154,7 @@ a:hover{text-decoration: none}
 .w-280{width: 280px;}
 .w-310{width: 310px;}
 .w-322{width: 322px;}
+.w-326{width: 326px;}
 .w-350{width: 350px;}
 .w-352{width: 352px;}
 .w-500{width: 500px;}
@@ -208,10 +212,12 @@ a:hover{text-decoration: none}
 .line-h-18{line-height: 18px;}
 .line-h-21{line-height: 21px;}
 .line-h-22{line-height: 22px;}
+.line-h-23{line-height: 23px;}
 .line-h-24{line-height: 24px;}
 .line-h-26{line-height: 26px;}
 .line-h-28{line-height: 28px;}
 .line-h-33{line-height: 33px;}
+.text-ind-6{text-indent: 6px;}
 .family-avs{font-family: "Arial","Verdana","宋体"}
 .family-inherit{font-family: "inherit"}
 .radius-4{border-radius:4px}
