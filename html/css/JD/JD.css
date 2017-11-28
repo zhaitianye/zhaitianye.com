@@ -47,6 +47,7 @@ a:hover{text-decoration: none}
 .col-cc0000{color: #c00000;}
 .col-e01121{color: #e01121;}
 .col-e01222{color: #e01222;}
+.layui-this > span{color: #fff;}
 .hov-col-e01222:hover{color: #e01222;}
 .bg-E3E4E5{background: #E3E4E5;}
 .bg-f6f0f0{background-color: #f6f0f0;}
@@ -106,16 +107,19 @@ a:hover{text-decoration: none}
 .t-210{top: 210px;}
 .t-212{top: 212px;}
 .t-386{top: 386px;}
+.t-414{top: 414px;}
 .r-15{right: 15px;}
 .r--65{right:-65px;}
 .r--70{right:-70px;}
 .r-100{right:100px;}
+.l-20{left: 20px;}
 .l-27{left: 27px;}
 .l-29{left: 29px;}
 .l-30{left: 30px;}
 .l-31{left: 31px;}
 .l-34{left: 34px;}
 .l-37{left: 37px;}
+.l-40{left: 40px;}
 .l--95{left: -95px;}
 .l-154{left: 154px;}
 .l-190{left: 190px;}
@@ -134,6 +138,7 @@ a:hover{text-decoration: none}
 .w-53{width: 53px;}
 .w-54{width: 54px;}
 .w-55{width: 55px;}
+.w-60{width: 60px;}
 .w-64{width: 64px;}
 .w-66{width: 66px;}
 .w-70{width: 70px;}
@@ -144,8 +149,11 @@ a:hover{text-decoration: none}
 .w-83{width: 83px;}
 .w-85{width: 85px;}
 .w-93{width: 93px;}
+.w-100{width: 100px;}
+.w-105{width: 105px;}
 .w-110{width: 110px;}
 .w-130{width: 130px;}
+.w-160{width: 160px;}
 .w-168{width: 168px;}
 .w-172{width: 172px;}
 .w-180{width: 180px;}
@@ -157,6 +165,8 @@ a:hover{text-decoration: none}
 .w-326{width: 326px;}
 .w-350{width: 350px;}
 .w-352{width: 352px;}
+.w-403{width: 403px;}
+.w-405{width: 405px;}
 .w-500{width: 500px;}
 .w-550{width: 550px;}
 .w-696{width: 696px;}
@@ -196,6 +206,7 @@ a:hover{text-decoration: none}
 .min-h-480{min-height: 480px;}
 .pl-12{padding-left: 12px;}
 .pl-16{padding-left: 16px;}
+.pl-26{padding-left: 26px;}
 .pl-52{padding-left: 52px;}
 .pl-80{padding-left: 80px;}
 .pr-12{padding-right: 12px;}

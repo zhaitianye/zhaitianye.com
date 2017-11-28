@@ -432,57 +432,235 @@ $(document).ready(function() {
                 $(".majorJD-c3-f3-s2-t2-control3").mouseleave(function() {
                     clearTimeout(mjc3f3s2t2ST260);
                 });
-            /*右二一一相关js*/
-            $(".c3-f3-s2-t2-s1-hotcity-c1").click(function(){
-                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
-                $(".c3-f3-s2-t2-s1-hotcity-s1").show();
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
-                $(this).addClass("bg-c81623i");
-                $(this).addClass("col-fffi");
-            });
-            $(".c3-f3-s2-t2-s1-hotcity-c2").click(function(){
-                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
-                $(".c3-f3-s2-t2-s1-hotcity-s2").show();
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
-                $(this).addClass("bg-c81623i");
-                $(this).addClass("col-fffi");
-            });
-            $(".c3-f3-s2-t2-s1-hotcity-c3").click(function(){
-                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
-                $(".c3-f3-s2-t2-s1-hotcity-s3").show();
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
-                $(this).addClass("bg-c81623i");
-                $(this).addClass("col-fffi");
-            });
-            $(".c3-f3-s2-t2-s1-hotcity-c4").click(function(){
-                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
-                $(".c3-f3-s2-t2-s1-hotcity-s4").show();
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
-                $(this).addClass("bg-c81623i");
-                $(this).addClass("col-fffi");
-            });
-            $(".c3-f3-s2-t2-s1-hotcity-c5").click(function(){
-                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
-                $(".c3-f3-s2-t2-s1-hotcity-s5").show();
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
-                $(this).addClass("bg-c81623i");
-                $(this).addClass("col-fffi");
-            });
-            $(".c3-f3-s2-t2-s1-hotcity-c6").click(function(){
-                $(".c3-f3-s2-t2-s1-hotcity-s").hide();
-                $(".c3-f3-s2-t2-s1-hotcity-s6").show();
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
-                $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
-                $(this).addClass("bg-c81623i");
-                $(this).addClass("col-fffi");
-            });
-
+            /*右二一相关js*/
+                $(".c3-f3-s2-t2-s1-hotcity-c1").click(function(){
+                    $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-hotcity-s1").show();
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-hotcity-c2").click(function(){
+                    $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-hotcity-s2").show();
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-hotcity-c3").click(function(){
+                    $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-hotcity-s3").show();
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-hotcity-c4").click(function(){
+                    $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-hotcity-s4").show();
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-hotcity-c5").click(function(){
+                    $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-hotcity-s5").show();
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-hotcity-c6").click(function(){
+                    $(".c3-f3-s2-t2-s1-hotcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-hotcity-s6").show();
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-hotcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3f3s2t2s1-departcity").focus(function(){
+                    $(".c3f3s2t2s1-show-decity").show();
+                });
+                var c3f3s2t2s1_stv1;
+                $(".c3f3s2t2s1-departcity").mouseleave(function(){
+                    $(".c3f3s2t2s1-departcity").blur();
+                    c3f3s2t2s1_stv1 = setTimeout(function(){st()},350);
+                    function st(){
+                        $(".c3f3s2t2s1-show-decity").hide();
+                    };
+                });
+                $(".c3f3s2t2s1-show-decity").mouseleave(function(){
+                    c3f3s2t2s1_stv1 = setTimeout(function(){st()},350);
+                    function st(){
+                        $(".c3f3s2t2s1-show-decity").hide();
+                    };
+                });
+                $(".c3f3s2t2s1-show-decity").mouseenter(function(){
+                    clearTimeout(c3f3s2t2s1_stv1);
+                    $(".c3f3s2t2s1-show-decity").show();
+                });
+                $(".c3f3s2t2s1-hotcity-decity").click(function(){
+                    //取值并去除所有空格
+                    var hotcityname = $(this).text().replace(/(^\s*)|(\s*$)/g, "");
+                    $(".c3f3s2t2s1-departcity").val(hotcityname);
+                    $(".c3f3s2t2s1-show-decity").hide();
+                });
+                $(".c3-f3-s2-t2-s1-arrcity-c1").click(function(){
+                    $(".c3-f3-s2-t2-s1-arrcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-arrcity-s1").show();
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-arrcity-c2").click(function(){
+                    $(".c3-f3-s2-t2-s1-arrcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-arrcity-s2").show();
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-arrcity-c3").click(function(){
+                    $(".c3-f3-s2-t2-s1-arrcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-arrcity-s3").show();
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-arrcity-c4").click(function(){
+                    $(".c3-f3-s2-t2-s1-arrcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-arrcity-s4").show();
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-arrcity-c5").click(function(){
+                    $(".c3-f3-s2-t2-s1-arrcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-arrcity-s5").show();
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t2-s1-arrcity-c6").click(function(){
+                    $(".c3-f3-s2-t2-s1-arrcity-s").hide();
+                    $(".c3-f3-s2-t2-s1-arrcity-s6").show();
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t2-s1-arrcity-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3f3s2t2s1-arrivalcity").focus(function(){
+                    $(".c3f3s2t2s1-show-arrcity").show();
+                });
+                var c3f3s2t2s1_stv2;
+                $(".c3f3s2t2s1-arrivalcity").mouseleave(function(){
+                    $(".c3f3s2t2s1-arrivalcity").blur();
+                    c3f3s2t2s1_stv2 = setTimeout(function(){st()},350);
+                    function st(){
+                        $(".c3f3s2t2s1-show-arrcity").hide();
+                    };
+                });
+                $(".c3f3s2t2s1-show-arrcity").mouseleave(function(){
+                    c3f3s2t2s1_stv2 = setTimeout(function(){st()},350);
+                    function st(){
+                        $(".c3f3s2t2s1-show-arrcity").hide();
+                    };
+                });
+                $(".c3f3s2t2s1-show-arrcity").mouseenter(function(){
+                    clearTimeout(c3f3s2t2s1_stv2);
+                    $(".c3f3s2t2s1-show-arrcity").show();
+                });
+                $(".c3f3s2t2s1-hotcity-arrcity").click(function(){
+                    //取值并去除所有空格
+                    var hotcityname = $(this).text().replace(/(^\s*)|(\s*$)/g, "");
+                    $(".c3f3s2t2s1-arrivalcity").val(hotcityname);
+                    $(".c3f3s2t2s1-show-arrcity").hide();
+                });
+                $(".c3f3s2t2s1-changecity").click(function(){
+                    var decity = $(".c3f3s2t2s1-departcity").val();
+                    var arrcity = $(".c3f3s2t2s1-arrivalcity").val();
+                    $(".c3f3s2t2s1-departcity").val(arrcity);
+                    $(".c3f3s2t2s1-arrivalcity").val(decity);
+                });
+                $(".c3f3s2t2s1-changecity").mouseenter(function(){
+                    $(this).addClass("bg-main-banner-right-bgv6-hov");
+                    $(this).removeClass("bg-main-banner-right-bgv6");
+                });
+                $(".c3f3s2t2s1-changecity").mouseleave(function(){
+                    $(this).addClass("bg-main-banner-right-bgv6");
+                    $(this).removeClass("bg-main-banner-right-bgv6-hov");
+                });
+                var c3f3s2t2s1_data = laydate.render({
+                    elem: '.c3f3s2t2s1-data',
+                    value: new Date(),
+                    showBottom: false,
+                    calendar: true,
+                    min: 0,
+                    format: 'yyyy/MM/dd',
+                });
+                var c3f3s2t2s1_datav2 = laydate.render({
+                    elem: '.c3f3s2t2s1-datav2',
+                    value: new Date(),
+                    showBottom: false,
+                    calendar: true,
+                    min: 1,
+                    format: 'yyyy/MM/dd',
+                });
+                $(".c3f3s2t2s11-form").validate({
+                    rules: {
+                        n_departcity: {
+                            required: true
+                        },
+                        n_arrivalcity: {
+                            required: true
+                        },
+                    },
+                    messages: {
+                        n_departcity: {
+                            required: "请选择出发城市"
+                        },
+                        n_arrivalcity: {
+                            required: "请选择到达城市",
+                        },
+                    },
+                    errorPlacement: function(error, element) {  
+                        error.appendTo(element.next("div"));  
+                    },
+                    submitHandler: function(form) {
+                        var departcity_val = $(".c3f3s2t2s1-departcity").val();
+                        var arrivalcity_val = $(".c3f3s2t2s1-arrivalcity").val();
+                        var c3f3s2t2s1_data_val = $(".c3f3s2t2s1-data").val();
+                        var c3f3s2t2s1_datav2_val = $(".c3f3s2t2s1-datav2").val();
+                        if ($(".c3f3s2t2s1-datav2").css('display') =='none') {
+                            layer.alert('<p>出发城市：<span class="col-527cdb ml-10" >'+departcity_val+'</span></p><p>到达城市：<span class="col-527cdb ml-10" >'+arrivalcity_val+'</span></p><p>出发日期：<span class="col-527cdb ml-10" >'+c3f3s2t2s1_data_val+'</span></p>',{
+                                icon: 6,
+                                title:"表单提交事件！",
+                            });
+                        }else{
+                            layer.alert('<p>出发城市：<span class="col-527cdb ml-10" >'+departcity_val+'</span></p><p>到达城市：<span class="col-527cdb ml-10" >'+arrivalcity_val+'</span></p><p>出发日期：<span class="col-527cdb ml-10" >'+c3f3s2t2s1_data_val+'</span></p><p>返程日期：<span class="col-527cdb ml-10" >'+c3f3s2t2s1_datav2_val+'</span></p>',{
+                                icon: 6,
+                                title:"表单提交事件！",
+                            });
+                        }
+                        
+                    },
+                });
+                $(".c3f3s2t2s1-lab-single").click(function(){
+                    $(".c3f3s2t2s1-datav2").hide();
+                });
+                $(".c3f3s2t2s1-lab-double").click(function(){
+                    $(".c3f3s2t2s1-datav2").show();
+                });
+            /*右二二相关js*/
+            
         /*右侧第三层相关表单验证END*/
     /*主要展示END*/
 });
-
+                
