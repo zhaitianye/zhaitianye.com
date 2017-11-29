@@ -45,8 +45,11 @@ a:hover{text-decoration: none}
 .col-666{color: #666; }
 .col-527cdb{color: #527cdb;}
 .col-cc0000{color: #c00000;}
+.col-cc0000i{color: #c00000 !important;}
 .col-e01121{color: #e01121;}
 .col-e01222{color: #e01222;}
+.col-c2c2c2{color: #c2c2c2;}
+.col-005ea7{color: #005ea7;}
 .layui-this > span{color: #fff;}
 .hov-col-e01222:hover{color: #e01222;}
 .bg-E3E4E5{background: #E3E4E5;}
@@ -78,6 +81,7 @@ a:hover{text-decoration: none}
 .bor-col-e6e6e6{border-color: #e6e6e6 !important}
 .bor-col-e01222{border-color: #e01222 !important}
 .bor-col-db192b{border-color: #db192b !important}
+.bor-col-c7d8e3{border-color: #c7d8e3 !important}
 .hov-bor-col-338fff:hover{border-color: #338fff !important;}
 .focus-bor-col-74a7f9:focus{border-color: #74a7f9 !important;}
 .hov-c81623:hover{color:#c81623 !important; cursor: pointer;}
@@ -106,6 +110,7 @@ a:hover{text-decoration: none}
 .t-36{top: 36px;}
 .t-210{top: 210px;}
 .t-212{top: 212px;}
+.t-360{top: 360px;}
 .t-386{top: 386px;}
 .t-414{top: 414px;}
 .r-15{right: 15px;}
@@ -134,17 +139,21 @@ a:hover{text-decoration: none}
 .w-28{width: 28px;}
 .w-34{width: 34px;}
 .w-40{width: 40px;}
+.w-42{width: 42px;}
 .w-50{width: 50px;}
 .w-53{width: 53px;}
 .w-54{width: 54px;}
 .w-55{width: 55px;}
 .w-60{width: 60px;}
+.w-62{width: 62px;}
 .w-64{width: 64px;}
 .w-66{width: 66px;}
 .w-70{width: 70px;}
 .w-71{width: 71px;}
 .w-73{width: 73px;}
 .w-76{width: 76px;}
+.w-78{width: 78px;}
+.w-79{width: 79px;}
 .w-80{width: 80px;}
 .w-83{width: 83px;}
 .w-85{width: 85px;}
@@ -155,12 +164,15 @@ a:hover{text-decoration: none}
 .w-130{width: 130px;}
 .w-160{width: 160px;}
 .w-168{width: 168px;}
+.w-170{width: 170px;}
 .w-172{width: 172px;}
+.w-177{width: 177px;}
 .w-180{width: 180px;}
 .w-190{width: 190px;}
 .w-198{width: 198px;}
 .w-280{width: 280px;}
 .w-310{width: 310px;}
+.w-320{width: 320px;}
 .w-322{width: 322px;}
 .w-326{width: 326px;}
 .w-350{width: 350px;}
@@ -181,6 +193,7 @@ a:hover{text-decoration: none}
 .h-22{height: 22px;}
 .h-23{height: 23px;}
 .h-24{height: 24px;}
+.h-25i{height: 25px !important;}
 .h-26{height: 26px;}
 .h-27{height: 27px;}
 .h-28{height: 28px;}
@@ -190,7 +203,9 @@ a:hover{text-decoration: none}
 .h-70{height: 70px;}
 .h-96{height: 96px}
 .h-116{height: 116px;}
+.h-119{height: 119px;}
 .h-120{height: 120px;}
+.h-124{height: 124px;}
 .h-130{height: 130px;}
 .h-134{height: 134px;}
 .h-137{height: 137px;}
@@ -208,10 +223,13 @@ a:hover{text-decoration: none}
 .pl-16{padding-left: 16px;}
 .pl-26{padding-left: 26px;}
 .pl-52{padding-left: 52px;}
+.pl-72{padding-left: 72px;}
 .pl-80{padding-left: 80px;}
+.pr-9{padding-right: 9px;}
 .pr-12{padding-right: 12px;}
 .pt-12{padding-top: 12px;}
 .pt-16{padding-top: 16px;}
+.pt-17{padding-top: 17px;}
 .pb-12{padding-bottom: 12px;}
 .pb-16{padding-bottom: 16px;}
 .ml-200{margin-left: 200px;}
@@ -229,6 +247,7 @@ a:hover{text-decoration: none}
 .line-h-28{line-height: 28px;}
 .line-h-33{line-height: 33px;}
 .text-ind-6{text-indent: 6px;}
+.family-Arial{font-family: "Arial"}
 .family-avs{font-family: "Arial","Verdana","宋体"}
 .family-inherit{font-family: "inherit"}
 .radius-4{border-radius:4px}
@@ -316,7 +335,7 @@ a:hover{text-decoration: none}
 .bg-main-banner-right-bgv2-tipsv10{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -132px -44px no-repeat;}
 .bg-main-banner-right-bgv2-tipsv11{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -132px -88px no-repeat;}
 .bg-main-banner-right-bgv2-tipsv12{background: url(../../img/JD/main-banner/main-banner-right-bgv2.png) -44px 0px no-repeat;}
-.bg-main-banner-right-bgv3{background: url(../../img/JD/main-banner/main-banner-right-bgv3.png) no-repeat;}
+.bg-main-banner-right-bgv3{background: url(../../img/JD/main-banner/main-banner-right-bgv3.png) center 0 no-repeat;}
 .bg-main-banner-right-bgv4{background: url(../../img/JD/main-banner/main-banner-right-bgv4.png) no-repeat; background-size: 100% 100%;}
 .bg-main-banner-right-bgv5{background: url(../../img/JD/main-banner/main-banner-right-bgv5.png) no-repeat;}
 .bg-main-banner-right-bgv6{background: url(../../img/JD/main-banner/main-banner-right-bgv6.jpg) no-repeat;}
