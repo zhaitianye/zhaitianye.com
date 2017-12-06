@@ -55,12 +55,18 @@ $(document).ready(function() {
         /*主banner swiper定义*/
             var mainbannerswiper = new Swiper('#main-banner-swiper', {
                 loop: true,
-                autoplay: 2500,
-                effect: 'fade',
+                autoplay: {
+                    delay: 2500,//5秒切换一次
+                },
                 autoplayDisableOnInteraction: false,
-                pagination: '#main-banner-swiper-pagination',
-                nextButton: '#main-banner-swiper-button-next',
-                prevButton: '#main-banner-swiper-button-prev',
+                effect: 'fade',
+                pagination: {
+                    el: '#main-banner-swiper-pagination',
+                },
+                navigation: {
+                    nextEl: '#main-banner-swiper-button-next',
+                    prevEl: '#main-banner-swiper-button-prev',
+                },
             });
             $('#main-banner-swiper .swiper-pagination').on('mouseover', 'span', function() {
                 var index = $(this).index();
@@ -1143,7 +1149,297 @@ $(document).ready(function() {
                         });
                     },
                 });
+            /*右四相关弹层和js*/
+                $(".c3-f3-s2-t4-s1-depart-c1").click(function(){
+                    $(".c3-f3-s2-t4-s1-depart-s").hide();
+                    $(".c3-f3-s2-t4-s1-depart-s1").show();
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-depart-c2").click(function(){
+                    $(".c3-f3-s2-t4-s1-depart-s").hide();
+                    $(".c3-f3-s2-t4-s1-depart-s2").show();
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-depart-c3").click(function(){
+                    $(".c3-f3-s2-t4-s1-depart-s").hide();
+                    $(".c3-f3-s2-t4-s1-depart-s3").show();
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-depart-c4").click(function(){
+                    $(".c3-f3-s2-t4-s1-depart-s").hide();
+                    $(".c3-f3-s2-t4-s1-depart-s4").show();
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-depart-c5").click(function(){
+                    $(".c3-f3-s2-t4-s1-depart-s").hide();
+                    $(".c3-f3-s2-t4-s1-depart-s5").show();
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-depart-c6").click(function(){
+                    $(".c3-f3-s2-t4-s1-depart-s").hide();
+                    $(".c3-f3-s2-t4-s1-depart-s6").show();
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-depart-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3f3s2t4s1-depart").focus(function(){
+                    $(".c3f3s2t4s1-depart").val("");
+                    $(".c3f3s2t4s1-show-depart").show();
+                });
+                $(document).click(function(event) {
+                    event.stopPropagation();
+                    var target=event.target;
+                    if (!$(target).closest(".c3f3s2t4s1-show-depart").length>0 && !$(target).closest(".c3f3s2t4s1-depart").length>0) {
+                        $(".c3f3s2t4s1-show-depart").hide();
+                     };
+                });
+                $(".c3f3s2t4s1-depart-decity").click(function(event){
+                    //取值并去除所有空格
+                    var dname = $(this).text().replace(/(^\s*)|(\s*$)/g, "");
+                    $(".c3f3s2t4s1-depart").val(dname);
+                    $(".c3f3s2t4s1-show-depart").hide();
+                    event.stopPropagation();
+                    $(".c3f3s2t4s1-arrive").focus();
+                    $(".c3f3s2t4s1-show-arrive").show();
+                });
+                $(".c3-f3-s2-t4-s1-arrive-c1").click(function(){
+                    $(".c3-f3-s2-t4-s1-arrive-s").hide();
+                    $(".c3-f3-s2-t4-s1-arrive-s1").show();
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-arrive-c2").click(function(){
+                    $(".c3-f3-s2-t4-s1-arrive-s").hide();
+                    $(".c3-f3-s2-t4-s1-arrive-s2").show();
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-arrive-c3").click(function(){
+                    $(".c3-f3-s2-t4-s1-arrive-s").hide();
+                    $(".c3-f3-s2-t4-s1-arrive-s3").show();
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-arrive-c4").click(function(){
+                    $(".c3-f3-s2-t4-s1-arrive-s").hide();
+                    $(".c3-f3-s2-t4-s1-arrive-s4").show();
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-arrive-c5").click(function(){
+                    $(".c3-f3-s2-t4-s1-arrive-s").hide();
+                    $(".c3-f3-s2-t4-s1-arrive-s5").show();
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3-f3-s2-t4-s1-arrive-c6").click(function(){
+                    $(".c3-f3-s2-t4-s1-arrive-s").hide();
+                    $(".c3-f3-s2-t4-s1-arrive-s6").show();
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("bg-c81623i");
+                    $(".c3-f3-s2-t4-s1-arrive-c").removeClass("col-fffi");
+                    $(this).addClass("bg-c81623i");
+                    $(this).addClass("col-fffi");
+                });
+                $(".c3f3s2t4s1-arrive").focus(function(){
+                    $(".c3f3s2t4s1-arrive").val("");
+                    $(".c3f3s2t4s1-show-arrive").show();
+                });
+                $(document).click(function(event) {
+                    event.stopPropagation();
+                    var target=event.target;
+                    if (!$(target).closest(".c3f3s2t4s1-show-arrive").length>0 && !$(target).closest(".c3f3s2t4s1-arrive").length>0) {
+                        $(".c3f3s2t4s1-show-arrive").hide();
+                     };
+                });
+                $(".c3f3s2t4s1-arrive-decity").click(function(){
+                    //取值并去除所有空格
+                    var dname = $(this).text().replace(/(^\s*)|(\s*$)/g, "");
+                    $(".c3f3s2t4s1-arrive").val(dname);
+                    $(".c3f3s2t4s1-show-arrive").hide();
+                });
+                $(".c3f3s2t4s1-changes").click(function(){
+                    var decity = $(".c3f3s2t4s1-depart").val();
+                    var arrcity = $(".c3f3s2t4s1-arrive").val();
+                    $(".c3f3s2t4s1-depart").val(arrcity);
+                    $(".c3f3s2t4s1-arrive").val(decity);
+                });
+                $(".c3f3s2t4s1-changes").mouseenter(function(){
+                    $(this).addClass("bg-main-banner-right-bgv6-hov");
+                    $(this).removeClass("bg-main-banner-right-bgv6");
+                });
+                $(".c3f3s2t4s1-changes").mouseleave(function(){
+                    $(this).addClass("bg-main-banner-right-bgv6");
+                    $(this).removeClass("bg-main-banner-right-bgv6-hov");
+                });
+                var c3f3s2t4s1_data = laydate.render({
+                    elem: '.c3f3s2t4s1-data',
+                    value: new Date(),
+                    showBottom: false,
+                    calendar: true,
+                    min: 0,
+                    format: 'yyyy/MM/dd',
+                });
+                $("#c3f3s2t4s1_stu").click(function(){;
+                    if ($('#c3f3s2t4s1_stu').prop('checked')) {
+                        $(".c3f3s2t4s1_sub").html("查询学生票");
+                    }else{
+                        $(".c3f3s2t4s1_sub").html("火车票查询");
+                    };
+                });
+                $(".c3f3s2t4s1-form").validate({
+                    rules: {
+                        n_depart: {
+                            required: true
+                        },
+                        n_arrive: {
+                            required: true
+                        },
+                    },
+                    messages: {
+                        n_depart: {
+                            required: "请选择出发城市"
+                        },
+                        n_arrive: {
+                            required: "请选择到达城市",
+                        },
+                    },
+                    errorPlacement: function(error, element) {  
+                        error.appendTo(element.next("div"));  
+                    },
+                    submitHandler: function(form) {
+                        var departcity_val = $(".c3f3s2t4s1-depart").val();
+                        var arrivalcity_val = $(".c3f3s2t4s1-arrive").val();
+                        var c3f3s2t2s1_data_val = $(".c3f3s2t4s1-data").val();
+                        var checkboxv1;
+                        var checkboxv2;
+                        if ($('#c3f3s2t4s1_ht').prop('checked')) {
+                            checkboxv1 = "是";
+                        }else{
+                            checkboxv1 = "否";
+                        };
+                        if ($('#c3f3s2t4s1_stu').prop('checked')) {
+                            checkboxv2 = "是";
+                        }else{
+                            checkboxv2 = "否";
+                        };
+                        if ($(".c3f3s2t2s1-datav2").css('display') =='none') {
+                            layer.alert('<p>出发城市：<span class="col-527cdb ml-10" >'+departcity_val+'</span></p><p>到达城市：<span class="col-527cdb ml-10" >'+arrivalcity_val+'</span></p><p>出发日期：<span class="col-527cdb ml-10" >'+c3f3s2t2s1_data_val+'</span></p><p>仅（高铁/动车）：<span class="col-527cdb ml-10" >'+checkboxv1+'</span></p><p>学生票：<span class="col-527cdb ml-10" >'+checkboxv2+'</span></p>',{
+                                icon: 6,
+                                title:"表单提交事件！",
+                            });
+                        }else{
+                            layer.alert('<p>出发城市：<span class="col-527cdb ml-10" >'+departcity_val+'</span></p><p>到达城市：<span class="col-527cdb ml-10" >'+arrivalcity_val+'</span></p><p>出发日期：<span class="col-527cdb ml-10" >'+c3f3s2t2s1_data_val+'</span></p><p>返程日期：<span class="col-527cdb ml-10" >'+c3f3s2t2s1_datav2_val+'</span></p>',{
+                                icon: 6,
+                                title:"表单提交事件！",
+                            });
+                        }
+                        
+                    },
+                });
         /*右侧第三层弹出部分相关jsEND*/
     /*主要展示END*/
+    /*京东秒杀*/
+        /*秒杀计时器模拟计时*/
+            var seckill_timer = setInterval(function(){seckilltime()},1000);
+            function seckilltime(){
+                var _timeout = new Date(new Date().setHours(23, 59, 59, 999));
+                var _timeout_ms = _timeout.getTime();
+                var _time_ms = new Date().getTime();
+                var diff_ms = _timeout_ms-_time_ms;
+
+                /*天*/
+                var days = Math.floor(diff_ms/(24*3600*1000));
+                var days_ms = diff_ms%(24*3600*1000);
+                /*小时*/
+                var hours = Math.floor(days_ms/(3600*1000));
+                var hours_ms = days_ms%(3600*1000);
+                /*分钟*/
+                var minutes = Math.floor(hours_ms/(60*1000));
+                var minutes_ms = hours_ms%(60*1000);
+                /*秒*/
+                var seconds = Math.floor(minutes_ms/1000);//取秒
+                if (hours <0) {
+                    hours = "00";
+                };
+                if (minutes <0) {
+                    minutes = "00";
+                };
+                if (seconds <0) {
+                    seconds = "00";
+                };
+                if (hours <10) {
+                    if (hours >=1) {
+                        hours = "01";
+                    }else{
+                        hours = "0"+hours;
+                    };
+                };
+                if (minutes <10) {
+                    minutes = "0"+minutes;
+                };
+                if (seconds <10) {
+                    seconds = "0"+seconds;
+                };
+                $(".skill_time_hours").text(hours);
+                $(".skill_time_minutes").text(minutes);
+                $(".skill_time_seconds").text(seconds);
+            };
+        /*秒杀左侧 swiper定义*/
+        var seckill_l_swiper = new Swiper('#seckill_l_swiper', {
+            //autoplay: true,
+            slidesPerView : 5,
+            slidesPerGroup : 5,
+            breakpoints: { 
+                1300: {
+                    slidesPerView: 4,
+                    spaceBetween: 4,
+                },
+            },
+        });
+        /*var seckill_l_swiper = new Swiper('#main-banner-swiper', {
+            loop: true,
+            autoplay: {
+                delay: 2500,//5秒切换一次
+            },
+            autoplayDisableOnInteraction: false,
+            effect: 'fade',
+            pagination: {
+                el: '#main-banner-swiper-pagination',
+            },
+            navigation: {
+                nextEl: '#main-banner-swiper-button-next',
+                prevEl: '#main-banner-swiper-button-prev',
+            },
+        });*/
+        /*$('#main-banner-swiper .swiper-pagination').on('mouseover', 'span', function() {
+            var index = $(this).index();
+            mainbannerswiper.slideTo(index + 1);
+        });*/
 });
                 
