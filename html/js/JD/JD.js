@@ -1411,31 +1411,70 @@ $(document).ready(function() {
             slidesPerView : 5,
             slidesPerGroup : 5,
             loop : true,
-            breakpoints: { 
+            breakpoints:   { 
                 1300: {
                     slidesPerView: 4,
                     spaceBetween: 4,
                 },
             },
-        });
-        /*var seckill_l_swiper = new Swiper('#main-banner-swiper', {
-            loop: true,
-            autoplay: {
-                delay: 2500,//5秒切换一次
-            },
-            autoplayDisableOnInteraction: false,
-            effect: 'fade',
-            pagination: {
-                el: '#main-banner-swiper-pagination',
-            },
             navigation: {
-                nextEl: '#main-banner-swiper-button-next',
-                prevEl: '#main-banner-swiper-button-prev',
+                nextEl: '#seckill_l_swipe_button_next',
+                prevEl: '#seckill_l_swipe_button_prev',
             },
-        });*/
-        /*$('#main-banner-swiper .swiper-pagination').on('mouseover', 'span', function() {
+            speed:800,
+        });
+        $("#seckill_l_swiper").mouseenter(function() {
+            $("#seckill_l_swipe_button_prev").show();
+            $("#seckill_l_swipe_button_next").show();
+        });
+        $("#seckill_l_swiper").mouseleave(function() {
+            $("#seckill_l_swipe_button_prev").hide();
+            $("#seckill_l_swipe_button_next").hide();
+        });
+        /*秒杀右侧swiper定义*/
+        var seckill_r_swiper = new Swiper('#seckill_r_swiper', {
+            autoplay: {
+                delay: 1300,
+            },
+            loop : true,
+            effect : 'fade',
+            pagination: {
+                el: '#seckill_r_swiper_pagination',
+            },
+            speed:800,
+        });
+        $('#seckill_r_swiper_pagination').on('mouseover', 'span', function() {
             var index = $(this).index();
-            mainbannerswiper.slideTo(index + 1);
-        });*/
+            seckill_r_swiper.slideTo(index + 1);
+        });
+    /*京东秒杀END*/
+    /*推荐中心*/
+        /*推荐中心一层中部swiper*/
+        var recommend_v1_side2_swiper = new Swiper('#recommend_v1_side2_swiper', {
+            autoplay: {
+                delay: 1500,
+            },
+            loop : true,
+            navigation: {
+                nextEl: '#recommend_v1_side2_swiper_button_next',
+                prevEl: '#recommend_v1_side2_swiper_button_prev',
+            },
+            effect : 'fade',
+            speed:500,
+            pagination: {
+                el: '#recommend_v1_side2_swiper_pagination',
+            },
+        });
+        $("#recommend_v1_side2_swiper").mouseenter(function() {
+            $("#recommend_v1_side2_swiper_button_next").show();
+            $("#recommend_v1_side2_swiper_button_prev").show();
+        });
+        $("#recommend_v1_side2_swiper").mouseleave(function() {
+            $("#recommend_v1_side2_swiper_button_prev").hide();
+            $("#recommend_v1_side2_swiper_button_next").hide();
+        });
+        $('#recommend_v1_side2_swiper_pagination').on('mouseover', 'span', function() {
+            var index = $(this).index();
+            recommend_v1_side2_swiper.slideTo(index + 1);
+        });
 });
-                
