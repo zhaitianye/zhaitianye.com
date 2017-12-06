@@ -1386,19 +1386,14 @@ $(document).ready(function() {
                 var seconds = Math.floor(minutes_ms/1000);//取秒
                 if (hours <0) {
                     hours = "00";
+                }else{
+                    hours = "01";
                 };
                 if (minutes <0) {
                     minutes = "00";
                 };
                 if (seconds <0) {
                     seconds = "00";
-                };
-                if (hours <10) {
-                    if (hours >=1) {
-                        hours = "01";
-                    }else{
-                        hours = "0"+hours;
-                    };
                 };
                 if (minutes <10) {
                     minutes = "0"+minutes;
@@ -1415,6 +1410,7 @@ $(document).ready(function() {
             //autoplay: true,
             slidesPerView : 5,
             slidesPerGroup : 5,
+            loop : true,
             breakpoints: { 
                 1300: {
                     slidesPerView: 4,

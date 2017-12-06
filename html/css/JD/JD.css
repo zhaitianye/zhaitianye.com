@@ -115,6 +115,7 @@ a:hover{text-decoration: none}
 .t-35{top: 35px;}
 .t-36{top: 36px;}
 .t-38{top: 38px;}
+.t-130{top:130px;}
 .t-210{top: 210px;}
 .t-212{top: 212px;}
 .t-339{top: 339px;}
@@ -151,6 +152,7 @@ a:hover{text-decoration: none}
 .w-16{width: 16px;}
 .w-19{width: 19px;}
 .w-28{width: 28px;}
+.w-30{width: 30px;}
 .w-34{width: 34px;}
 .w-35{width: 35px;}
 .w-40{width: 40px;}
@@ -265,6 +267,7 @@ a:hover{text-decoration: none}
 .mt-22{margin-top: 22px;}
 .mb-17{margin-bottom: 17px;}
 .opa-0{opacity: 0;}
+.f-w-300{font-weight: 300;}
 .f-w-400{font-weight: 400;}
 .f-w-700{font-weight: 700;}
 .line-h-14{line-height: 14px;}
@@ -280,6 +283,7 @@ a:hover{text-decoration: none}
 .line-h-33{line-height: 33px;}
 .line-h-37{line-height: 37px;}
 .text-ind-6{text-indent: 6px;}
+@font-face{font-family: Arial;src: url(../../img/JD/comm/Arial.ttf);}
 .family-Arial{font-family: "Arial"}
 .family-avs{font-family: "Arial","Verdana","宋体"}
 .family-inherit{font-family: "inherit"}
@@ -384,3 +388,24 @@ a:hover{text-decoration: none}
 .bg_skill_l_sidev2{background: url(../../img/JD/comm/angle_v1.png) -154px -40px no-repeat;background-size:218px 188px;}
 @font-face{font-family: fzzhengheis-el-gbregular;src: url(../../img/JD/comm/FZZXHJW.TTF);}
 .family-fzzhengheis{font-family: "fzzhengheis-el-gbregular"}
+.skill_text_line2{word-wrap:break-word;word-break: break-all;}
+.bg_skill_l_shadowv1{background: url(../../img/JD/comm/angle_v1.png) 0 0 no-repeat;background-size:218px 188px;}
+.transition_04p{-webkit-transition: -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    -moz-transition: transform .4s ease, -moz-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease, -moz-transform .4s ease;
+}
+.transform_y0{
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+.skill_l_side_a:hover > p{color: red;}
+.skill_l_side_a:hover > img{-webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+.bg_skill_l_side_lt{background: url(../../img/JD/comm/angle_v1.png) -54px -40px no-repeat;background-size:218px 188px;}
