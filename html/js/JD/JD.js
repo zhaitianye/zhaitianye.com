@@ -1477,4 +1477,33 @@ $(document).ready(function() {
             var index = $(this).index();
             recommend_v1_side2_swiper.slideTo(index + 1);
         });
+        $(".recommend_v1_side3_c1").mouseenter(function() {
+            $(".recommend_v1_side3_strip").css({"-webkit-transform":"translateX(0)","-moz-transform":"translateX(0)","-ms-transform":"translateX(0)","transform":"translateX(0)"});
+            $(".recommend_v1_side3_s").hide();
+            $(".recommend_v1_side3_s1").show();
+        });
+        $(".recommend_v1_side3_c2").mouseenter(function() {
+            $(".recommend_v1_side3_strip").css({"-webkit-transform":"translateX(78px)","-moz-transform":"translateX(78px)","-ms-transform":"translateX(78px)","transform":"translateX(78px)"});
+            $(".recommend_v1_side3_s").hide();
+            $(".recommend_v1_side3_s2").show();
+        });
+        $(".recommend_v1_side3_c3").mouseenter(function() {
+            $(".recommend_v1_side3_strip").css({"-webkit-transform":"translateX(156px)","-moz-transform":"translateX(156px)","-ms-transform":"translateX(156px)","transform":"translateX(156px)"});
+            $(".recommend_v1_side3_s").hide();
+            $(".recommend_v1_side3_s3").show();
+        });
+        $(".recommend_v1_side3_c4").mouseenter(function() {
+            $(".recommend_v1_side3_strip").css({"-webkit-transform":"translateX(234px)","-moz-transform":"translateX(234px)","-ms-transform":"translateX(234px)","transform":"translateX(234px)"});
+            $(".recommend_v1_side3_s").hide();
+            $(".recommend_v1_side3_s4").show();
+        });
+        $(".recommend_v1_side3_c5").mouseenter(function() {
+            $(".recommend_v1_side3_strip").css({"-webkit-transform":"translateX(312px)","-moz-transform":"translateX(312px)","-ms-transform":"translateX(312px)","transform":"translateX(312px)"});
+            $(".recommend_v1_side3_s").hide();
+            $(".recommend_v1_side3_s5").show();
+        });
+
+
+
+
 });
