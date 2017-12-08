@@ -1502,7 +1502,22 @@ $(document).ready(function() {
             $(".recommend_v1_side3_s").hide();
             $(".recommend_v1_side3_s5").show();
         });
-
+        /*推荐中心二层右部swiper*/
+        var recommend_v2_side2_swiper = new Swiper('#recommend_v2_side2_swiper', {
+            /*autoplay: {
+                delay: 1500,
+            },*/
+            loop : true,
+            /*navigation: {
+                nextEl: '#recommend_v2_side2_swiper_button_next',
+                prevEl: '#recommend_v2_side2_swiper_button_prev',
+            },
+            effect : 'fade',
+            speed:500,
+            pagination: {
+                el: '#recommend_v2_side2_swiper_pagination',
+            },*/
+        });
 
 
 
