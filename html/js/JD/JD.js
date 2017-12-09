@@ -1462,7 +1462,7 @@ $(document).ready(function() {
             effect : 'fade',
             speed:500,
             pagination: {
-                el: '#recommend_v1_side2_swiper_pagination',
+                el: '#recommend_v2_side2_swiper_pagination',
             },
         });
         $("#recommend_v1_side2_swiper").mouseenter(function() {
@@ -1504,21 +1504,32 @@ $(document).ready(function() {
         });
         /*推荐中心二层右部swiper*/
         var recommend_v2_side2_swiper = new Swiper('#recommend_v2_side2_swiper', {
-            /*autoplay: {
+            autoplay: {
                 delay: 1500,
-            },*/
+            },
             loop : true,
-            /*navigation: {
+            navigation: {
                 nextEl: '#recommend_v2_side2_swiper_button_next',
                 prevEl: '#recommend_v2_side2_swiper_button_prev',
             },
             effect : 'fade',
-            speed:500,
+            speed:600,
             pagination: {
                 el: '#recommend_v2_side2_swiper_pagination',
-            },*/
+            },
+        });
+        $("#recommend_v2_side2_swiper").mouseenter(function() {
+            $("#recommend_v2_side2_swiper_button_next").show();
+            $("#recommend_v2_side2_swiper_button_prev").show();
+        });
+        $("#recommend_v2_side2_swiper").mouseleave(function() {
+            $("#recommend_v2_side2_swiper_button_prev").hide();
+            $("#recommend_v2_side2_swiper_button_next").hide();
+        });
+        $('#recommend_v2_side2_swiper_pagination').on('mouseover', 'span', function() {
+            var index = $(this).index();
+            recommend_v2_side2_swiper.slideTo(index + 1);
         });
 
-
-
+        
 });
