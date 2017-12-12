@@ -1462,7 +1462,7 @@ $(document).ready(function() {
             effect : 'fade',
             speed:500,
             pagination: {
-                el: '#recommend_v2_side2_swiper_pagination',
+                el: '#recommend_v1_side2_swiper_pagination',
             },
         });
         $("#recommend_v1_side2_swiper").mouseenter(function() {
@@ -1530,6 +1530,26 @@ $(document).ready(function() {
             var index = $(this).index();
             recommend_v2_side2_swiper.slideTo(index + 1);
         });
-
-        
+    /*推荐中心END*/
+    /*享品质*/
+        /*右侧swiper*/
+        var AlwaysFun_r_swiper = new Swiper('#AlwaysFun_r_swiper', {
+            autoplay: {
+                delay: 1800,
+            },
+            loop : true,
+            navigation: {
+                nextEl: '#AlwaysFun_r_swiper_button_next',
+                prevEl: '#AlwaysFun_r_swiper_button_prev',
+            },
+            effect : 'fade',
+            speed:800,
+            pagination: {
+                el: '#AlwaysFun_r_swiper_pagination',
+            },
+        });
+        $('#AlwaysFun_r_swiper_pagination').on('mouseover', 'span', function() {
+            var index = $(this).index();
+            AlwaysFun_r_swiper.slideTo(index + 1);
+        });
 });
