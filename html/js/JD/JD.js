@@ -1532,7 +1532,6 @@ $(document).ready(function() {
         });
     /*推荐中心END*/
     /*享品质*/
-        /*右侧swiper*/
         var AlwaysFun_r_swiper = new Swiper('#AlwaysFun_r_swiper', {
             autoplay: {
                 delay: 1800,
@@ -1552,4 +1551,39 @@ $(document).ready(function() {
             var index = $(this).index();
             AlwaysFun_r_swiper.slideTo(index + 1);
         });
+    /*享品质END*/
+    /*爱生活*/
+        /*一楼*/
+        var lovelife_ff_l_swiper = new Swiper('#ll_ff_l_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_ff_l_swiper_button_next',
+                 prevEl: '#ll_ff_l_swiper_button_prev',
+             },
+            speed:600,
+        });
+        var lovelife_ff_r_swiper = new Swiper('#ll_ff_r_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_ff_r_swiper_button_next',
+                 prevEl: '#ll_ff_r_swiper_button_prev',
+             },
+            speed:600,
+        });
+        /*二楼*/
+        var lovelife_sef_r_swiper = new Swiper('#ll_sef_r_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_sef_l_swiper_button_next',
+                 prevEl: '#ll_sef_l_swiper_button_prev',
+             },
+            speed:600,
+        });
+
 });
