@@ -1575,7 +1575,7 @@ $(document).ready(function() {
             speed:600,
         });
         /*二楼*/
-        var lovelife_sef_r_swiper = new Swiper('#ll_sef_r_swiper', {
+        var lovelife_sef_l_swiper = new Swiper('#ll_sef_l_swiper', {
             loop : true,
             slidesPerView : 6,
             slidesPerGroup : 6,
@@ -1585,5 +1585,57 @@ $(document).ready(function() {
              },
             speed:600,
         });
-
+        var lovelife_sef_r_swiper = new Swiper('#ll_sef_r_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_sef_r_swiper_button_next',
+                 prevEl: '#ll_sef_r_swiper_button_prev',
+             },
+            speed:600,
+        });
+        /*三楼*/
+        var lovelife_thirdf_swiper = new Swiper('#ll_thirdf_swiper', {
+            loop : true,
+            slidesPerView : 12,
+            slidesPerGroup : 12,
+             navigation: {
+                 nextEl: '#ll_thirdf_swiper_button_next',
+                 prevEl: '#ll_thirdf_swiper_button_prev',
+             },
+            speed:600,
+        });
+        /*四楼*/
+        var lovelife_fourthf_l_swiper = new Swiper('#ll_fourthf_l_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_fourthf_l_swiper_button_next',
+                 prevEl: '#ll_fourthf_l_swiper_button_prev',
+             },
+            speed:600,
+        });
+        var lovelife_fourthf_r_swiper = new Swiper('#ll_fourthf_r_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_fourthf_r_swiper_button_next',
+                 prevEl: '#ll_fourthf_r_swiper_button_prev',
+             },
+            speed:600,
+        });
+        /*五楼*/
+        var lovelife_fifthf_swiper = new Swiper('#ll_fiff_swiper', {
+            loop : true,
+            slidesPerView : 12,
+            slidesPerGroup : 12,
+             navigation: {
+                 nextEl: '#ll_fiff_swiper_button_next',
+                 prevEl: '#ll_fiff_swiper_button_prev',
+             },
+            speed:600,
+        });
 });
