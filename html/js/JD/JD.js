@@ -1638,4 +1638,46 @@ $(document).ready(function() {
              },
             speed:600,
         });
+        /*六楼*/
+        var lovelife_sixf_l_swiper = new Swiper('#ll_sixf_l_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_sixf_l_swiper_button_next',
+                 prevEl: '#ll_sixf_l_swiper_button_prev',
+             },
+            speed:600,
+        });
+        var lovelife_sixf_r_swiper = new Swiper('#ll_sixf_r_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_sixf_r_swiper_button_next',
+                 prevEl: '#ll_sixf_r_swiper_button_prev',
+             },
+            speed:600,
+        });
+        /*七楼*/
+        var lovelife_sevenf_l_swiper = new Swiper('#ll_sevenf_l_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_sevenf_l_swiper_button_next',
+                 prevEl: '#ll_sevenf_l_swiper_button_prev',
+             },
+            speed:600,
+        });
+        var lovelife_sevenf_r_swiper = new Swiper('#ll_sevenf_r_swiper', {
+            loop : true,
+            slidesPerView : 6,
+            slidesPerGroup : 6,
+             navigation: {
+                 nextEl: '#ll_sevenf_r_swiper_button_next',
+                 prevEl: '#ll_sevenf_r_swiper_button_prev',
+             },
+            speed:600,
+        });
 });

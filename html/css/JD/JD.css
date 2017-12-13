@@ -115,6 +115,9 @@ a:hover{text-decoration: none}
 .col-568e7d{color: #568e7d;}
 .col-eeb924{color: #eeb924;}
 .col-e16c46{color: #e16c46;}
+.col-a56741{color: #a56741;}
+.col-756059{color: #756059;}
+.col-865454{color: #865454;}
 .layui-this > span{color: #fff;}
 .hov-col-e01222:hover{color: #e01222;}
 .bg-E3E4E5{background: #E3E4E5;}
@@ -150,6 +153,9 @@ a:hover{text-decoration: none}
 .bg-568e7d{background-color: #568e7d;}
 .bg-eeb924{background-color: #eeb924;}
 .bg-e16c46{background-color: #e16c46;}
+.bg-a56741{background-color: #a56741;}
+.bg-756059{background-color: #756059;}
+.bg-865454{background-color: #865454;}
 .bg-eee{background-color: #eee;}
 .bg-c81623i{background-color: #c81623 !important;}
 .bor-none{border: none;}
@@ -190,7 +196,13 @@ a:hover{text-decoration: none}
 .bor-col-eeb924{border-color: #eeb924 }
 .bor-col-f9d661{border-color: #f9d661 }
 .bor-col-e16c46{border-color: #e16c46 }
-.bor-col-e16c46{border-color: #ef9f81 }
+.bor-col-ef9f81{border-color: #ef9f81 }
+.bor-col-a56741{border-color: #a56741 }
+.bor-col-c19369{border-color: #c19369 }
+.bor-col-756059{border-color: #756059 }
+.bor-col-9e8a84{border-color: #9e8a84 }
+.bor-col-865454{border-color: #865454 }
+.bor-col-b48787{border-color: #b48787 }
 .bor-col-t-transparent{border-top-color: transparent !important;}
 .bor-col-l-transparent{border-left-color: transparent !important;}
 .bor-col-r-transparent{border-right-color: transparent !important;}
@@ -1044,4 +1056,23 @@ a:hover{text-decoration: none}
         background-image: -webkit-linear-gradient(left, #e16c46, #e85629);
         background-image: -moz-linear-gradient(left, #e16c46, #e85629);
         background-image: linear-gradient(90deg, #e16c46, #e85629)
+    }
+    .llsixfc_headerv2{
+        background-image: -webkit-linear-gradient(90deg, #a56741, #925937);
+        background-image: -webkit-linear-gradient(left, #a56741, #925937);
+        background-image: -moz-linear-gradient(left, #a56741, #925937);
+        background-image: linear-gradient(90deg, #a56741, #925937)
+    }
+    /* 七楼 */
+    .llsevenfc_header{
+        background-image: -webkit-linear-gradient(90deg, #756059, #684c44);
+        background-image: -webkit-linear-gradient(left, #756059, #684c44);
+        background-image: -moz-linear-gradient(left, #756059, #684c44);
+        background-image: linear-gradient(90deg, #756059, #684c44)
+    }
+    .llsevenfc_headerv2{
+        background-image: -webkit-linear-gradient(90deg, #865454, #7e3b3c);
+        background-image: -webkit-linear-gradient(left, #865454, #7e3b3c);
+        background-image: -moz-linear-gradient(left, #865454, #7e3b3c);
+        background-image: linear-gradient(90deg, #865454, #7e3b3c)
     }
