@@ -118,6 +118,10 @@ a:hover{text-decoration: none}
 .col-a56741{color: #a56741;}
 .col-756059{color: #756059;}
 .col-865454{color: #865454;}
+.col-6467a0{color: #6467a0;}
+.col-708d33{color: #708d33;}
+.col-5a7259{color: #5a7259;}
+.col-5981a3{color: #5981a3;}
 .layui-this > span{color: #fff;}
 .hov-col-e01222:hover{color: #e01222;}
 .bg-E3E4E5{background: #E3E4E5;}
@@ -156,6 +160,10 @@ a:hover{text-decoration: none}
 .bg-a56741{background-color: #a56741;}
 .bg-756059{background-color: #756059;}
 .bg-865454{background-color: #865454;}
+.bg-6467a0{background-color: #6467a0;}
+.bg-708d33{background-color: #708d33;}
+.bg-5a7259{background-color: #5a7259;}
+.bg-5981a3{background-color: #5981a3;}
 .bg-eee{background-color: #eee;}
 .bg-c81623i{background-color: #c81623 !important;}
 .bor-none{border: none;}
@@ -203,6 +211,15 @@ a:hover{text-decoration: none}
 .bor-col-9e8a84{border-color: #9e8a84 }
 .bor-col-865454{border-color: #865454 }
 .bor-col-b48787{border-color: #b48787 }
+.bor-col-6467a0{border-color: #6467a0 }
+.bor-col-9598cd{border-color: #9598cd }
+.bor-col-708d33{border-color: #708d33 }
+.bor-col-9ab068{border-color: #9ab068 }
+.bor-col-5a7259{border-color: #5a7259 }
+.bor-col-78977a{border-color: #78977a }
+.bor-col-708d33{border-color: #708d33 }
+.bor-col-82a5bc{border-color: #82a5bc }
+.bor-col-5981a3{border-color: #5981a3 }
 .bor-col-t-transparent{border-top-color: transparent !important;}
 .bor-col-l-transparent{border-left-color: transparent !important;}
 .bor-col-r-transparent{border-right-color: transparent !important;}
@@ -1075,4 +1092,30 @@ a:hover{text-decoration: none}
         background-image: -webkit-linear-gradient(left, #865454, #7e3b3c);
         background-image: -moz-linear-gradient(left, #865454, #7e3b3c);
         background-image: linear-gradient(90deg, #865454, #7e3b3c)
+    }
+    /* 八楼 */
+    .lleightfc_header{
+        background-image: -webkit-linear-gradient(90deg, #6467a0, #544b8f);
+        background-image: -webkit-linear-gradient(left, #6467a0, #544b8f);
+        background-image: -moz-linear-gradient(left, #6467a0, #544b8f);
+        background-image: linear-gradient(90deg, #6467a0, #544b8f)
+    }
+    .lleightfc_headerv2{
+        background-image: -webkit-linear-gradient(90deg, #5a7259, #425f41);
+        background-image: -webkit-linear-gradient(left, #5a7259, #425f41);
+        background-image: -moz-linear-gradient(left, #5a7259, #425f41);
+        background-image: linear-gradient(90deg, #5a7259, #425f41)
+    }
+    /* 九楼 */
+    .llninefc_header{
+        background-image: -webkit-linear-gradient(90deg, #5981a3, #41698b);
+        background-image: -webkit-linear-gradient(left, #5981a3, #41698b);
+        background-image: -moz-linear-gradient(left, #5981a3, #41698b);
+        background-image: linear-gradient(90deg, #5981a3, #41698b)
+    }
+    .llninefc_headerv2{
+        background-image: -webkit-linear-gradient(90deg, #708d33, #6d7c1d);
+        background-image: -webkit-linear-gradient(left, #708d33, #6d7c1d);
+        background-image: -moz-linear-gradient(left, #708d33, #6d7c1d);
+        background-image: linear-gradient(90deg, #708d33, #6d7c1d)
     }
