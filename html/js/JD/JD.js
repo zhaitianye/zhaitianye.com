@@ -1,5 +1,13 @@
 $(document).ready(function() {
     /*头部部分*/
+        /*头部广告部分*/
+        $(".bg_head_close").click(function(){
+            $(".head_advertising_c").animate({opacity:'0'},700);
+            var head_adver_hide = setTimeout(function(){adver_hide()},600);
+            function adver_hide(){
+              $("#head_advertising").hide();
+            };
+        });
         /*导航条显示隐藏*/
             $(".navmain-li").mouseenter(function() {
                 $(this).find(".navmain-lishow").show();
@@ -1363,6 +1371,18 @@ $(document).ready(function() {
                     },
                 });
         /*右侧第三层弹出部分相关jsEND*/
+        /*主要展示广告部分相关控制*/
+            $(".majorJD-advertising").mouseenter(function(event) {
+                $(".majorJD-advertising-side").stop();
+                $(".majorJD-advertising-side").animate({width:'990px'},200);
+            });
+            $(".majorJD-advertising").mouseleave(function(event) {
+                $(".majorJD-advertising-side").stop();
+                $(".majorJD-advertising-side").animate({width:'0px'},200);
+            });
+            $(".mjd-adv-s-close").click(function(event){
+                $(".majorJD-advertising-side").animate({width:'0px'},200);
+            });
     /*主要展示END*/
     /*京东秒杀*/
         /*秒杀计时器模拟计时*/

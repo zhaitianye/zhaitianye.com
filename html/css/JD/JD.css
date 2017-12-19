@@ -192,6 +192,7 @@ a:hover{text-decoration: none}
 .bg-b4598a{background-color: #b4598a;}
 .bg-3caf78{background-color: #3caf78;}
 .bg-eaeaea{background-color: #eaeaea;}
+.bg-872227{background-color: #872227;}
 .bg-eee{background-color: #eee;}
 .bg-c81623i{background-color: #c81623 !important;}
 .bor-none{border: none;}
@@ -283,6 +284,7 @@ a:hover{text-decoration: none}
 .t-15{top: 15px;}
 .t-17{top: 17px;}
 .t-18{top: 18px;}
+.t-20{top: 20px;}
 .t-25{top: 25px;}
 .t-26{top: 26px;}
 .t-29{top: 29px;}
@@ -307,6 +309,7 @@ a:hover{text-decoration: none}
 .t-445{top: 445px;}
 .r-15{right: 15px;}
 .r-16{right: 16px;}
+.r-20{right: 20px;}
 .r-25{right: 25px;}
 .r--65{right:-65px;}
 .r--70{right:-70px;}
@@ -330,7 +333,10 @@ a:hover{text-decoration: none}
 .l-190{left: 190px;}
 .l-200{left: 200px;}
 .l-240{left: 240px;}
+.l--350{left: -350px;}
+.l-350{left: 350px;}
 .b-40{bottom: 40px;}
+.w-0{width: 0px;}
 .w-20s{width: 20%;}
 .w-1{width: 1px;}
 .w-5{width: 5px;}
@@ -379,6 +385,7 @@ a:hover{text-decoration: none}
 .w-120{width: 120px;}
 .w-122{width: 122px;}
 .w-123{width: 123px;}
+.w-125{width: 125px;}
 .w-130{width: 130px;}
 .w-140{width: 140px;}
 .w-146{width: 146px;}
@@ -414,6 +421,7 @@ a:hover{text-decoration: none}
 .w-696{width: 696px;}
 .w-790{width: 790px;}
 .w-800{width: 800px;}
+.w-990{width: 990px;}
 .h-1{height: 1px;}
 .h-2{height: 2px;}
 .h-5{height: 5px;}
@@ -439,6 +447,7 @@ a:hover{text-decoration: none}
 .h-38{height: 38px;}
 .h-40{height: 40px;}
 .h-42{height: 42px;}
+.h-48{height: 48px;}
 .h-54{height: 54px;}
 .h-56{height: 56px;}
 .h-57{height: 57px;}
@@ -576,6 +585,12 @@ a:hover{text-decoration: none}
 .bg-banner-text-right{background: url(../../img/JD/main-header/float-text-hotbg.png) -5px 0px no-repeat;}
 .mainnavrightselect{color: white;background: #f10215;}
 .mainnavrightnoselect:hover{color: #c81623;background: #f4f4f4;}
+/* 头部广告部分 */
+.bg_head_advertising{background: url(../../img/JD/head_advertising/head_adver_bgv1.jpg) 50% 0px no-repeat;}
+.bg_head_close{background: #2d2d2d url(../../img/JD/head_advertising/head_adver_close.png) 50% 0px no-repeat;opacity: 0.3;}
+/* 固定头部部分 */
+.bg_header_aff_v1{background: url(../../img/JD/main-header/bg_logov3.png) 0px 0px no-repeat;}
+
 /* 主要展示中部展示banner导航 */
 #main-banner-swiper-button-prev{
   left: 0px;
@@ -647,6 +662,8 @@ a:hover{text-decoration: none}
 .main-banner-right-form1-error-mag label{color: #da1616;}
 .main-banner-right-form2-error-mag label{color: #da1616;}
 .main-banner-right-form3-error-mag label{color: #da1616;}
+/* 主要展示弹出层广告 */
+.mjd-adv-s-close{background: #2d2d2d url(../../img/JD/head_advertising/head_adver_close.png) 50% 0px no-repeat;opacity: 0.3;}
 /* 京东秒杀 */
 .bg_skill_main_head{background: url(../../img/JD/seckill/bg_seckill_head.png) no-repeat;}
 .bg_skill_l_angle{background: url(../../img/JD/comm/angle_v1.png) -190px -48px no-repeat;background-size:218px 188px;}
