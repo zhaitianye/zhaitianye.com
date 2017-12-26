@@ -1,13 +1,13 @@
 $(document).ready(function() {
     /*头部部分*/
         /*头部广告部分*/
-        $(".bg_head_close").click(function(){
-            $(".head_advertising_c").animate({opacity:'0'},700);
-            var head_adver_hide = setTimeout(function(){adver_hide()},600);
-            function adver_hide(){
-              $("#head_advertising").hide();
-            };
-        });
+            $(".bg_head_close").click(function(){
+                $(".head_advertising_c").animate({opacity:'0'},700);
+                var head_adver_hide = setTimeout(function(){adver_hide()},600);
+                function adver_hide(){
+                  $("#head_advertising").hide();
+                };
+            });
         /*导航条显示隐藏*/
             $(".navmain-li").mouseenter(function() {
                 $(this).find(".navmain-lishow").show();
@@ -48,7 +48,75 @@ $(document).ready(function() {
                 $(this).addClass("bor-col-e3e4e5");
             });
         /*购物车显示隐藏end*/
+        /*固定头部隐藏显示*/
+        /*返回顶部*/
+        header_aff_show();
+        $(window).scroll(function(){  
+            header_aff_show();
+        });
+        function header_aff_show(){
+            var htmlHeight=document.body.scrollHeight||document.documentElement.scrollHeight;  
+            var clientHeight=document.body.clientHeight||document.documentElement.clientHeight;  
+            var scrollTop=document.body.scrollTop||document.documentElement.scrollTop;
+
+            var header_aff_st;
+            if($("#head_advertising").is(":hidden")){
+                header_aff_st = $("#shortcut").height()+$("#header").height()+$("#majorJD").height();
+            }else{
+                header_aff_st = $("#head_advertising").height()+$("#shortcut").height()+$("#header").height()+$("#majorJD").height();
+            };
+            if (scrollTop<header_aff_st) {
+                $("#header_aff").slideUp(200);
+            }else{
+                $("#header_aff").slideDown(400);
+            };
+        };
+        /*固定头部隐藏显示END*/
     /*头部部分END*/
+    /*右侧边栏和相应弹出*/
+        $(".right_aff_midd_div").mouseenter(function() {
+            $(this).find(".bg_right_aff_midd_circle").hide();
+            $(this).find(".right_aff_midd_div_i").addClass("bg-c81623i");
+            $(this).find("span").addClass("bg-c81623i");
+            $(this).find("span").show();
+            $(this).find("span").animate({left:'-60px'},0);
+        });
+        $(".right_aff_midd_div").mouseleave(function() {
+            $(this).find("span").stop();
+            $(this).find(".right_aff_midd_div_i").removeClass("bg-c81623i");
+            $(this).find("span").removeClass("bg-c81623i");
+            $(this).find(".bg_right_aff_midd_circle").show();
+            $(this).find("span").animate({left:'0px'},0);
+            var st = setTimeout(function(){right_aff_midd_span_hide()},100);
+            function right_aff_midd_span_hide(){
+                $(this).find("span").hide();
+            };
+        });
+        $(".go_top").click(function(){
+            var speed=100;
+            $('body,html').animate({ scrollTop: 0}, speed);
+        });
+        /*购物车部分*/
+            /*动态高度*/
+        set_right_aff_show_middle_h();
+        $(window).resize(function(){
+            set_right_aff_show_middle_h();
+        });
+        function set_right_aff_show_middle_h(){
+            var right_aff_show_middle_h = $(".right_aff_show").height()-$(".right_aff_show_header").height()-$(".right_aff_show_footer").height();
+            $(".right_aff_show_middle").height(right_aff_show_middle_h);
+        };
+        $(".right_aff_midd_cart").click(function(){
+            $(".right_aff_show").animate({width:'270px'},0);
+        });
+        $(".right_aff_show_head_close").click(function(){
+            $(".right_aff_show").animate({width:'0px'},0);
+        });
+
+        
+        
+        
+    /*右侧边栏和相应弹出END*/
     /*主要展示*/
         /*主要显示左侧导航控制部分*/
             $(".main-menu-left-control").mouseenter(function() {
