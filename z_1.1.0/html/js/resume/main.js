@@ -37,7 +37,7 @@ var plantLine1Div = document.getElementById("plant-line-1");
 var plantLine2Div = document.getElementById("plant-line-2");
 var plantArray = new Array();
 var plantTargetTopObjectArray = new Array();
-plantTargetTopObjectArray.push(plantLine1Div, plantLine1Div, plantLine2Div, plantLine2Div);
+plantTargetTopObjectArray.push(plantLine1Div, plantLine1Div, plantLine1Div, plantLine2Div);
 var canAnimatePlantInformation;
 
 var about2ContainerDiv = document.getElementById("buildings-container");
