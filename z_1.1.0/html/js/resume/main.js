@@ -37,7 +37,7 @@ var plantLine1Div = document.getElementById("plant-line-1");
 var plantLine2Div = document.getElementById("plant-line-2");
 var plantArray = new Array();
 var plantTargetTopObjectArray = new Array();
-plantTargetTopObjectArray.push(plantLine1Div, plantLine1Div, plantLine1Div, plantLine2Div);
+plantTargetTopObjectArray.push(plantLine1Div, plantLine1Div, plantLine2Div, plantLine2Div);
 var canAnimatePlantInformation;
 
 var about2ContainerDiv = document.getElementById("buildings-container");
@@ -147,7 +147,7 @@ var canAnimateCrabInformation;
 var isCrabStillAnimating = false;
 var crabAnimateNumber = 0;
 var numberOfCrabInEachRowArray = new Array();
-numberOfCrabInEachRowArray.push(5, 5, 4, 3);
+numberOfCrabInEachRowArray.push(4, 4, 2, 2);
 
 var skill3ContainerDiv = document.getElementById("skill-3-container");
 var turtleArray = new Array();
@@ -156,7 +156,7 @@ var canAnimateTurtleInformation;
 var isTurtleStillAnimating = false;
 var turtleAnimateNumber = 0;
 var numberOfTurtleInEachRowArray = new Array();
-numberOfTurtleInEachRowArray.push(5, 4, 3, 3);
+numberOfTurtleInEachRowArray.push(5, 5, 3, 2);
 
 var pageVerticalPosition = 0;
 var pageVerticalPositionOnTouch = 0;
