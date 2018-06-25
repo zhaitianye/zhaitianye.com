@@ -147,7 +147,7 @@ var canAnimateCrabInformation;
 var isCrabStillAnimating = false;
 var crabAnimateNumber = 0;
 var numberOfCrabInEachRowArray = new Array();
-numberOfCrabInEachRowArray.push(4, 4, 2, 2);
+numberOfCrabInEachRowArray.push(3, 3, 3, 1);
 
 var skill3ContainerDiv = document.getElementById("skill-3-container");
 var turtleArray = new Array();
