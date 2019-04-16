@@ -1807,6 +1807,17 @@ img
 	background-image: url("../../images/resume/piechart-foxnews-front.png");
 }
 
+.piechart-foxnews-front2
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../../images/resume/piechart-foxnews-front2.png") !important;
+}
+
+
 #piechart-foxnews-text-graphic-1
 {
 	left: 25px;
@@ -1821,25 +1832,25 @@ img
 
 #piechart-foxnews-text-animation-1
 {
-	left: 191px;
+	left: 190px;
 	top: 155px;
 }
 
 #piechart-foxnews-text-animation-2
 {
-	left: 218px;
+	left: 200px;
 	top: 193px;
 }
 
 #piechart-foxnews-text-code-1
 {
-	left: 220px;
+	left: 190px;
 	top: 67px;
 }
 
 #piechart-foxnews-text-code-2
 {
-	left: 221px;
+	left: 200px;
 	top: 105px;
 }
 
